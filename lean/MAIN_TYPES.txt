@@ -1,0 +1,18 @@
+Namespace Liu.Certificate
+
+def boxBounds : Prop :=
+  ∀ b ∈ boxes, ∀ s γ : ℝ, b.contains s γ → γ ≤ Real.pi/2 →
+    (∀ u : ℝ, b.depth ≤ u → 0 < margin s γ u) ∧
+      (b.safeLower:ℝ) ≤ margin s γ b.depth
+
+Namespace Liu
+
+theorem certified_prefix_integral : Certificate.prefixProperty
+
+theorem pair_deficit_of_certificate (p : Pair) (box : Certificate.boxBounds) :
+    k₀*p.mass^2<deficit p.value
+
+theorem two_pole_test_of_certificate (p : Pair) (box : Certificate.boxBounds) :
+    Tendsto (truncatedDeficit p.value) atTop (𝓝 (deficit p.value)) ∧
+    k₀*p.mass^2<deficit p.value ∧ p.slope<0 ∧
+    ∃ ε₀>0, ∀ ε : ℝ, 0<ε → ε<ε₀ → p.quotientDomain ε ∧ quotient (critical p ε)<k₀

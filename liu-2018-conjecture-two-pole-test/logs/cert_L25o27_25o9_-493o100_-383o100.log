@@ -1,0 +1,13 @@
+DEPS driver d12c2054 engine 78206e94 cheb3 9da5f00a backchain 6dbc509f
+chartM v1.42 (driver md5 d12c2054, engine md5 78206e94, cheb3 md5 9da5f00a, prec 96)
+CHARTM box s in [25/27, 25/9], lambda = log gamma in [-493/100, -383/100]: rho_s 5/2, windows True, anchor A = 0.079076 at u = oo (W-CELL to e^1/2), u-cells v in [-19/2, 1/2]
+DUMP (P2-B input): logs/dump_box_L25o27_25o9_-493o100_-383o100_v142.jsonl
+W-CELL u >= e^1/2 (w0 = 0.6065): M_s 1.982e+01 M_g 2.832e+00 M_y 1.709e+01 rhos ('3', '5', '5/2'), degrees (13, 7, 13), 1568 nodes, R <= 5.58e-04; max(G + suffix) <= +1.655624e-05 (gap 2.0e-05), FLOOR >= +0.077944 (1983 s)
+CELL v in [-3/2, 1/2]: M_s 1.779e+01 M_g 1.148e+01 M_y 2.825e+01 rhos ('5/2', '5/2', '5/2'), degrees (16, 14, 14), 3825 nodes, R <= 5.77e-04; max(G + suffix) <= -1.478285e-04 (gap 2.0e-05), FLOOR >= +0.076953 (1652 s)
+CELL v in [-7/2, -3/2]: M_s 5.253e+01 M_g 4.731e+01 M_y 4.076e+02 rhos ('5/2', '5/2', '5/2'), degrees (17, 16, 17), 5508 nodes, R <= 5.32e-04; max(G + suffix) <= +4.416147e-03 (gap 2.0e-05), FLOOR >= +0.071325 (4697 s)
+CELL v in [-11/2, -7/2]: M_s 3.175e+01 M_g 2.029e+04 M_y 1.205e+05 rhos ('5/2', '5/2', '5/2'), degrees (16, 22, 23), 9384 nodes, R <= 8.43e-04; max(G + suffix) <= +1.475166e-02 (gap 2.0e-05), FLOOR >= +0.059303 (8101 s)
+CELL v in [-15/2, -11/2]: M_s 2.000e+01 M_g 5.234e+06 M_y 4.698e+06 rhos ('5/2', '5/2', '5/2'), degrees (16, 28, 27), 13804 nodes, R <= 7.64e-04; max(G + suffix) <= +1.690318e-02 (gap 2.0e-05), FLOOR >= +0.055623 (9185 s)
+CELL v in [-19/2, -15/2]: M_s 1.973e+01 M_g 3.200e+07 M_y 7.379e+06 rhos ('5/2', '5/2', '5/2'), degrees (16, 30, 28), 15283 nodes, R <= 6.77e-04; max(G + suffix) <= +1.721623e-02 (gap 2.0e-05), FLOOR >= +0.053955 (13492 s)
+DEEP pieces from e^-19/2 down: 6.3e-03/K4 2.5e-03/K4 1.0e-03/K4 4.0e-04/K4 1.6e-04/K4 6.3e-05/K4 2.5e-05/K4 9.8e-06/K4 3.9e-06/K4 1.5e-06/K4 5.9e-07/K4 2.3e-07/K4 9.0e-08/K4 3.5e-08/K4 1.4e-08/K4 5.3e-09/K4 2.1e-09/K4 2.5e-04/K2 9.1e-05/K2 3.3e-05/K2 1.2e-05/K2 4.5e-06/K2 1.7e-06/K2 6.1e-07/K2 1.1e-04/K1 4.0e-05/K1 1.5e-05/K1 5.4e-06/K1 2.0e-06/K1 7.3e-07/K1 2.7e-07/K1 9.9e-08/K1; packets by contour {'window': 272, 'plain': 128}
+CHARTM RESULT: Phi_lo(e^-19/2) >= +0.053956, after deep pieces +0.042897, u_b = 9.479e-19, prefix <= 2.067e-04, Phi(0+) >= +0.042690 -> PASS
+rc=0

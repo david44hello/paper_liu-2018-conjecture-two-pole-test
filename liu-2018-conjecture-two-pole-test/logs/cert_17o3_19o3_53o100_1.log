@@ -1,0 +1,15 @@
+DEPS driver 7309984f engine 78206e94 cheb3 9da5f00a backchain 6dbc509f
+chartM v0.72 (driver md5 7309984f, engine md5 78206e94, cheb3 md5 9da5f00a, prec 96)
+CHARTM box s in [17/3, 19/3], gamma in [53/100, 1]: rho_s 5/2, anchor A = 0.079076 at u = oo (W-CELL to e^1/2), u-cells v in [-27/2, 1/2]
+DUMP (P2-B input): logs/dump_box_17o3_19o3_53o100_1_v070.jsonl
+W-CELL u >= e^1/2 (w0 = 0.6065): M_s 6.082e-01 M_g 6.488e-01 M_y 3.683e+01 rhos ('5', '3', '5/2'), degrees (6, 9, 14), 1050 nodes, R <= 7.05e-04; max(G + suffix) <= +1.066111e-05 (gap 1.2e-05), FLOOR >= +0.077656 (3795 s)
+CELL v in [-3/2, 1/2]: M_s 7.193e-01 M_g 7.836e-01 M_y 1.023e+02 rhos ('5/2', '5/2', '5/2'), degrees (12, 11, 15), 2496 nodes, R <= 7.65e-04; max(G + suffix) <= +1.918765e-05 (gap 1.9e-05), FLOOR >= +0.076117 (1890 s)
+CELL v in [-7/2, -3/2]: M_s 6.152e-01 M_g 7.074e-01 M_y 9.308e+00 rhos ('5/2', '5/2', '5/2'), degrees (12, 11, 13), 2184 nodes, R <= 5.69e-04; max(G + suffix) <= +1.323412e-05 (gap 1.7e-05), FLOOR >= +0.074985 (1839 s)
+CELL v in [-11/2, -7/2]: M_s 1.491e-01 M_g 1.835e-01 M_y 4.014e-01 rhos ('5/2', '5/2', '5/2'), degrees (10, 9, 9), 1100 nodes, R <= 8.50e-04; max(G + suffix) <= +1.753427e-06 (gap 1.4e-05), FLOOR >= +0.073296 (1161 s)
+CELL v in [-15/2, -11/2]: M_s 2.260e-02 M_g 2.770e-02 M_y 4.508e-02 rhos ('5/2', '5/2', '5/2'), degrees (8, 7, 7), 576 nodes, R <= 6.91e-04; max(G + suffix) <= -7.298711e-07 (gap 1.4e-05), FLOOR >= +0.071915 (903 s)
+CELL v in [-19/2, -15/2]: M_s 3.279e-03 M_g 4.080e-03 M_y 6.718e-03 rhos ('5/2', '5/2', '5/2'), degrees (6, 5, 5), 252 nodes, R <= 5.86e-04; max(G + suffix) <= -7.415638e-07 (gap 1.3e-05), FLOOR >= +0.070743 (778 s)
+CELL v in [-23/2, -19/2]: M_s 7.287e-04 M_g 6.614e-04 M_y 1.007e-03 rhos ('5/2', '5/2', '5/2'), degrees (4, 3, 3), 80 nodes, R <= 5.61e-04; max(G + suffix) <= -7.347090e-07 (gap 1.3e-05), FLOOR >= +0.069622 (615 s)
+CELL v in [-27/2, -23/2]: M_s 4.099e-04 M_g 8.259e-05 M_y 1.448e-04 rhos ('5/2', '5/2', '5/2'), degrees (3, 1, 1), 16 nodes, R <= 4.27e-04; max(G + suffix) <= -7.348503e-07 (gap 1.3e-05), FLOOR >= +0.068768 (411 s)
+DEEP pieces from e^-27/2 down: 6.5e-05/K1 2.4e-05/K1 9.1e-06/K1 3.4e-06/K1 1.3e-06/K1 4.8e-07/K1 1.8e-07/K1 6.8e-08/K1 2.6e-08/K1 9.7e-09/K1 3.6e-09/K1 1.4e-09/K1 5.2e-10/K1 2.0e-10/K1 7.4e-11/K1 2.8e-11/K1 1.1e-11/K1 4.0e-12/K1 1.5e-12/K1 5.7e-13/K1 2.1e-13/K1
+CHARTM RESULT: Phi_lo(e^-27/2) >= +0.068768, after deep pieces +0.068664, u_b = 1.040e-15, prefix <= 3.175e-04, Phi(0+) >= +0.068347 -> PASS
+rc=0
