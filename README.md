@@ -1,5 +1,7 @@
 # A two-pole test of the Liu (2018) conjecture on the norm of the Bergman projection
 
+The paper: https://doi.org/10.5281/zenodo.24573670
+
 ## What is in this repository?
 
 - The [Lean directory](lean/) contains the Lean 4 formalization of the analytic reductions (Theorems 1.1 and 3.5 assuming the 168-box bounds of Proposition 6.1 as one hypothesis, plus 33 unconditional numbered results and Lemma 6.5 given a cited bound from Ibrahimoglu (2016)) and verification instructions.
