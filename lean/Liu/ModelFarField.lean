@@ -1,4 +1,8 @@
-import Liu.ExteriorModel
+module
+
+public import Liu.ExteriorModel
+
+@[expose] public section
 
 noncomputable section
 open Set Real

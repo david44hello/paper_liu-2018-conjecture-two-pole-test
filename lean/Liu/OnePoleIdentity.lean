@@ -1,9 +1,13 @@
-import Liu.OnePoleWitness
-import Liu.SingleTrace
-import Mathlib.Analysis.Complex.AbsMax
-import Mathlib.Analysis.Complex.OpenMapping
-import Mathlib.Analysis.Complex.Convex
-import Mathlib.Analysis.Complex.ExponentialBounds
+module
+
+public import Liu.OnePoleWitness
+public import Liu.SingleTrace
+public import Mathlib.Analysis.Complex.AbsMax
+public import Mathlib.Analysis.Complex.OpenMapping
+public import Mathlib.Analysis.Complex.Convex
+public import Mathlib.Analysis.Complex.ExponentialBounds
+
+@[expose] public section
 
 noncomputable section
 open Set Real Metric

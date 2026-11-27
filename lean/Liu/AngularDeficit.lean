@@ -1,5 +1,9 @@
-import Liu.Witness
-import Liu.RadialEnergy
+module
+
+public import Liu.Witness
+public import Liu.RadialEnergy
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Filter Real

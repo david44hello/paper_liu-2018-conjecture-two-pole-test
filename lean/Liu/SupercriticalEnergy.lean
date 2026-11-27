@@ -1,6 +1,10 @@
-import Liu.CanonicalRegularity
-import Liu.HomogeneousGreen
-import Liu.RectangleGreen
+module
+
+public import Liu.CanonicalRegularity
+public import Liu.HomogeneousGreen
+public import Liu.RectangleGreen
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real Filter Metric

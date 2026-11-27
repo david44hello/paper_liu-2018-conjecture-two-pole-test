@@ -1,4 +1,8 @@
-import Liu.Gluing
+module
+
+public import Liu.Gluing
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory

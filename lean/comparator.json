@@ -1,0 +1,15 @@
+{
+  "challenge_module": "RegistryChallenge",
+  "solution_module": "RegistrySolution",
+  "theorem_names": [
+    "Liu.two_pole_test_of_certificate",
+    "Liu.pair_deficit_of_certificate"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": true
+}

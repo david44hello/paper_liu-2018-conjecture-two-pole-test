@@ -1,5 +1,9 @@
-import Challenge.TrialOrthogonality
-import Challenge.BergmanLpNorm
+module
+
+public import Challenge.TrialOrthogonality
+public import Challenge.BergmanLpNorm
+
+@[expose] public section
 
 /- Frozen input: Liu/LiuComparison.lean -/
 noncomputable section

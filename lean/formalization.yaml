@@ -1,0 +1,75 @@
+version: v0.4
+project:
+  name: A two-pole test of the Liu (2018) conjecture on the norm of the Bergman projection
+  description: For every two-pole Pick function in the upper half-plane (including coincident poles),
+    assuming the computer-checked bounds of Proposition 6.1 over 168 fixed boxes as one explicit
+    hypothesis, Lean proves the strict finite-part deficit inequality (Theorem 3.5) and hence negative
+    slope and strict Bergman-quotient inequality below pi^2/12 for sufficiently small positive exponent
+    increments (Theorem 1.1). Proposition 6.1 is checked by computer outside Lean. The full Liu (2018)
+    conjecture remains open.
+  authors:
+  - Dave Goel
+  license: Apache-2.0
+  responsible_maintainers:
+  - Dave Goel
+classification:
+  arxiv:
+  - math.CV
+  - math.FA
+  msc2020:
+  - 30H20
+  - 47B38
+  - 65G30
+sources:
+- title: A two-pole test of the Liu (2018) conjecture on the norm of the Bergman projection
+  authors:
+  - Dave Goel
+  id: 10.5281/zenodo.24573671
+  type: paper
+  location: https://doi.org/10.5281/zenodo.24573671
+  relationship: formalizes
+status:
+  scope: The two compared statements formalize Theorems 1.1 and 3.5 for arbitrary two-pole Pick
+    functions, including coincident poles. Both theorems take Certificate.boxBounds (the Proposition 6.1
+    bounds over the exact 168 fixed boxes) as one explicit hypothesis. Proposition 6.1 is checked by
+    computer outside Lean using interval-arithmetic programs and 168 box logs included in the repository.
+    The scalar interpolation premise (a cited scalar interpolation bound, Ibrahimoglu 2016) enters Lemma 6.5 separately and is not used by Theorems 1.1 or
+    3.5. The full Liu (2018) conjecture itself remains open.
+  sorry_count: 0
+  sorry_in_definitions: 0
+  axioms:
+  - propext
+  - Quot.sound
+  - Classical.choice
+automation:
+  methods:
+  - method: agent
+    tool_setup: AI agents wrote Lean and carried out machine checks under the author's direction.
+fidelity:
+  divergences: Theorems 1.1 and 3.5 are proved in Lean conditional on Certificate.boxBounds, which
+    encodes the Proposition 6.1 inequalities over the 168 fixed boxes established by computer outside
+    Lean. The full Liu (2018) conjecture is not claimed proved; this entry covers only the two-pole
+    test of the paper.
+review:
+  status: agent-reviewed
+  reviewers:
+  - Google Gemini
+  notes: Independent Google Gemini review compared the selected statements, definitions, and explicit
+    168-box hypothesis against the published paper and proof. The repository passed clean Lean
+    compilation, axiom audit, lake comparator verification, and the registry changed-definition
+    control.
+alignment:
+  namespace: Liu
+  statements:
+  - source: Theorem 1.1
+    lean: Liu.two_pole_test_of_certificate
+    module: RegistryChallenge
+    status: proved
+    note: Assumes Certificate.boxBounds (Proposition 6.1 over 168 fixed boxes, checked by computer
+      outside Lean). Covers both distinct and coincident lower poles.
+  - source: Theorem 3.5
+    lean: Liu.pair_deficit_of_certificate
+    module: RegistryChallenge
+    status: proved
+    note: Assumes Certificate.boxBounds (Proposition 6.1 over 168 fixed boxes, checked by computer
+      outside Lean). Covers both distinct and coincident lower poles.

@@ -1,8 +1,12 @@
-import Challenge.QuotientDomain
-import Challenge.PickSums
-import Challenge.RadialEnergy
-import Mathlib.Analysis.Complex.MeanValue
-import Challenge.BergmanClosed
+module
+
+public import Challenge.QuotientDomain
+public import Challenge.PickSums
+public import Challenge.RadialEnergy
+public import Mathlib.Analysis.Complex.MeanValue
+public import Challenge.BergmanClosed
+
+@[expose] public section
 
 /- Frozen input: Liu/Reproducing.lean -/
 noncomputable section

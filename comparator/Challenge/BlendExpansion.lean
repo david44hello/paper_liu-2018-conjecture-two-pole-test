@@ -1,5 +1,9 @@
-import Challenge.Blend
-import Challenge.OnePoleBounds
+module
+
+public import Challenge.Blend
+public import Challenge.OnePoleBounds
+
+@[expose] public section
 
 /- Frozen input: Liu/BlendExpansion.lean -/
 noncomputable section

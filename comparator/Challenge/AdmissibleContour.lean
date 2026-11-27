@@ -1,6 +1,10 @@
-import Challenge.CutDomain
-import Challenge.PairedFlux
-import Challenge.ComplexTaylorFlux
+module
+
+public import Challenge.CutDomain
+public import Challenge.PairedFlux
+public import Challenge.ComplexTaylorFlux
+
+@[expose] public section
 
 /- Frozen input: Liu/AdmissibleContour.lean -/
 noncomputable section

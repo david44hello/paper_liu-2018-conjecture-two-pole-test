@@ -1,5 +1,9 @@
-import Liu.SinglePartnerFlux
-import Liu.CentredMovement
+module
+
+public import Liu.SinglePartnerFlux
+public import Liu.CentredMovement
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Filter Real Complex

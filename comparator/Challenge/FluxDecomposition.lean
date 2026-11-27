@@ -1,4 +1,8 @@
-import Challenge.EdgeTrace
+module
+
+public import Challenge.EdgeTrace
+
+@[expose] public section
 
 /- Frozen input: Liu/FluxDecomposition.lean -/
 noncomputable section

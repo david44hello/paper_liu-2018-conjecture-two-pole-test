@@ -1,5 +1,9 @@
-import Liu.LinePole
-import Mathlib.Probability.Distributions.Cauchy
+module
+
+public import Liu.LinePole
+public import Mathlib.Probability.Distributions.Cauchy
+
+@[expose] public section
 
 noncomputable section
 open MeasureTheory Filter Set Real ProbabilityTheory

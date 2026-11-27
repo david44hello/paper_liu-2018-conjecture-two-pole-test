@@ -1,7 +1,11 @@
-import Challenge.SmallFirstOrder
-import Challenge.BlendExpansion
-import Challenge.ClusterGeometry
-import Challenge.MergedPoles
+module
+
+public import Challenge.SmallFirstOrder
+public import Challenge.BlendExpansion
+public import Challenge.ClusterGeometry
+public import Challenge.MergedPoles
+
+@[expose] public section
 
 /- Frozen input: Liu/SmallMassDeficit.lean -/
 noncomputable section

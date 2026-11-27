@@ -1,8 +1,12 @@
-import Liu.Denominator
-import Mathlib.MeasureTheory.Function.LpSpace.DomAct.Continuous
-import Mathlib.Analysis.Convex.Integral
-import Mathlib.Analysis.Convex.Mul
-import Mathlib.MeasureTheory.Integral.Prod
+module
+
+public import Liu.Denominator
+public import Mathlib.MeasureTheory.Function.LpSpace.DomAct.Continuous
+public import Mathlib.Analysis.Convex.Integral
+public import Mathlib.Analysis.Convex.Mul
+public import Mathlib.MeasureTheory.Integral.Prod
+
+@[expose] public section
 
 noncomputable section
 open MeasureTheory Set Filter Metric

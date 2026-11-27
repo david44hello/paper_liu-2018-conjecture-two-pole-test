@@ -1,5 +1,9 @@
-import Liu.BlendedWitness
-import Liu.SmallRemainder
+module
+
+public import Liu.BlendedWitness
+public import Liu.SmallRemainder
+
+@[expose] public section
 
 noncomputable section
 open Set Real MeasureTheory Filter Metric

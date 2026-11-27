@@ -1,5 +1,9 @@
-import Liu.AngularPotential
-import Liu.LogSource
+module
+
+public import Liu.AngularPotential
+public import Liu.LogSource
+
+@[expose] public section
 
 noncomputable section
 open Real

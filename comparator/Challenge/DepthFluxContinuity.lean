@@ -1,5 +1,9 @@
-import Challenge.FarDeficit
-import Challenge.DepthTraceContinuity
+module
+
+public import Challenge.FarDeficit
+public import Challenge.DepthTraceContinuity
+
+@[expose] public section
 
 /- Frozen input: Liu/DepthFluxContinuity.lean -/
 noncomputable section

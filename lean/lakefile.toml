@@ -13,3 +13,15 @@ name = "Liu"
 globs = ["Liu", "Liu.+"]
 leanOptions = { autoImplicit = false, relaxedAutoImplicit = false }
 weakLeanArgs = ["-j1"]
+
+[[lean_lib]]
+name = "RegistryChallenge"
+roots = ["RegistryChallenge"]
+leanOptions = { autoImplicit = false, relaxedAutoImplicit = false }
+weakLeanArgs = ["-j1"]
+
+[[lean_lib]]
+name = "RegistrySolution"
+roots = ["RegistrySolution"]
+leanOptions = { autoImplicit = false, relaxedAutoImplicit = false }
+weakLeanArgs = ["-j1"]

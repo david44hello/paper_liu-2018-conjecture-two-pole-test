@@ -1,4 +1,8 @@
-import Liu.TraceSlices
+module
+
+public import Liu.TraceSlices
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real

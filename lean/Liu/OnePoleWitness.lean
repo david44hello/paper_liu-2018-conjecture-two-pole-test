@@ -1,6 +1,10 @@
-import Liu.WitnessClaim
-import Liu.SinglePoleEvaluation
-import Mathlib.Analysis.Complex.RemovableSingularity
+module
+
+public import Liu.WitnessClaim
+public import Liu.SinglePoleEvaluation
+public import Mathlib.Analysis.Complex.RemovableSingularity
+
+@[expose] public section
 
 noncomputable section
 open Set Real MeasureTheory Filter Metric

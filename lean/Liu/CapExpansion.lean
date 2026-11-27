@@ -1,5 +1,9 @@
-import Liu.CapWeights
-import Liu.SinglePoleReduction
+module
+
+public import Liu.CapWeights
+public import Liu.SinglePoleReduction
+
+@[expose] public section
 
 noncomputable section
 open Real Set Filter Finset

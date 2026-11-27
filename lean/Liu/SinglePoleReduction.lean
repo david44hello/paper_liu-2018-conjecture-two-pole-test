@@ -1,5 +1,9 @@
-import Liu.SlopeFormula
-import Liu.TraceSlices
+module
+
+public import Liu.SlopeFormula
+public import Liu.TraceSlices
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Filter Real

@@ -1,5 +1,9 @@
-import Challenge.Witness
-import Challenge.RadialEnergy
+module
+
+public import Challenge.Witness
+public import Challenge.RadialEnergy
+
+@[expose] public section
 
 /- Frozen input: Liu/AngularDeficit.lean -/
 noncomputable section

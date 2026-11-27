@@ -1,4 +1,8 @@
-import Liu.CutDomain
+module
+
+public import Liu.CutDomain
+
+@[expose] public section
 
 noncomputable section
 open Set Filter MeasureTheory Complex Real

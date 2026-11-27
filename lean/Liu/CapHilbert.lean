@@ -1,4 +1,8 @@
-import Liu.CapProjection
+module
+
+public import Liu.CapProjection
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real Filter

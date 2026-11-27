@@ -1,5 +1,9 @@
-import Liu.FieldIntegral
-import Liu.TraceSlices
+module
+
+public import Liu.FieldIntegral
+public import Liu.TraceSlices
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real

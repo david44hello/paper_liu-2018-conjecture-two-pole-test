@@ -1,4 +1,8 @@
-import Liu.ChebyshevApproximation
+module
+
+public import Liu.ChebyshevApproximation
+
+@[expose] public section
 
 noncomputable section
 open Set Real Polynomial

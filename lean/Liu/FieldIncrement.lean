@@ -1,6 +1,10 @@
-import Liu.FractionalConvolution
-import Liu.DepthFieldComparison
-import Liu.DepthFluxContinuity
+module
+
+public import Liu.FractionalConvolution
+public import Liu.DepthFieldComparison
+public import Liu.DepthFluxContinuity
+
+@[expose] public section
 
 noncomputable section
 open Set Real MeasureTheory Filter Metric

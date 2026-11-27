@@ -1,6 +1,10 @@
-import Liu.Bergman
-import Liu.Mass
-import Liu.Prefix
+module
+
+public import Liu.Bergman
+public import Liu.Mass
+public import Liu.Prefix
+
+@[expose] public section
 
 noncomputable section
 open Set Filter

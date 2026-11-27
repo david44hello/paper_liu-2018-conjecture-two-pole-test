@@ -1,4 +1,8 @@
-import Liu.AngularUniqueness
+module
+
+public import Liu.AngularUniqueness
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Filter Real

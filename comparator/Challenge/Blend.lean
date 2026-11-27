@@ -1,4 +1,8 @@
-import Challenge.Witness
+module
+
+public import Challenge.Witness
+
+@[expose] public section
 
 /- Frozen input: Liu/Blend.lean -/
 noncomputable section

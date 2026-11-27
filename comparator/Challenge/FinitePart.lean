@@ -1,7 +1,11 @@
-import Challenge.Projection
-import Challenge.Bergman
-import Challenge.Mass
-import Challenge.Prefix
+module
+
+public import Challenge.Projection
+public import Challenge.Bergman
+public import Challenge.Mass
+public import Challenge.Prefix
+
+@[expose] public section
 
 /- Frozen input: Liu/FinitePart.lean -/
 noncomputable section

@@ -1,5 +1,9 @@
-import Liu.FirstOrderExpansion
-import Liu.PoissonLine
+module
+
+public import Liu.FirstOrderExpansion
+public import Liu.PoissonLine
+
+@[expose] public section
 
 noncomputable section
 open Set Real MeasureTheory Filter Metric

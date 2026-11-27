@@ -1,5 +1,9 @@
-import Liu.TrialDensity
-import Liu.ProjectionKernel
+module
+
+public import Liu.TrialDensity
+public import Liu.ProjectionKernel
+
+@[expose] public section
 
 noncomputable section
 open Set Real Complex Filter MeasureTheory

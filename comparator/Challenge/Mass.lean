@@ -1,4 +1,8 @@
-import Challenge.Pick
+module
+
+public import Challenge.Pick
+
+@[expose] public section
 
 /- Frozen input: Liu/Mass.lean -/
 noncomputable section

@@ -1,5 +1,9 @@
-import Challenge.FieldBound
-import Challenge.DeficitRemainder
+module
+
+public import Challenge.FieldBound
+public import Challenge.DeficitRemainder
+
+@[expose] public section
 
 /- Frozen input: Liu/FarDeficit.lean -/
 noncomputable section

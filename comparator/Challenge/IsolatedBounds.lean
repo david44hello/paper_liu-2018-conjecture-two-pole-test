@@ -1,4 +1,8 @@
-import Challenge.SingleTrace
+module
+
+public import Challenge.SingleTrace
+
+@[expose] public section
 
 /- Frozen input: Liu/IsolatedBounds.lean -/
 noncomputable section

@@ -1,6 +1,10 @@
-import Liu.EdgeSourceRegions
-import Liu.EdgeConvolution
-import Liu.GreenRadialWeights
+module
+
+public import Liu.EdgeSourceRegions
+public import Liu.EdgeConvolution
+public import Liu.GreenRadialWeights
+
+@[expose] public section
 
 noncomputable section
 open Set Real MeasureTheory

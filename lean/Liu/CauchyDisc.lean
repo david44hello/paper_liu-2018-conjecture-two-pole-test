@@ -1,5 +1,9 @@
-import Liu.PolarRays
-import Liu.DiscMean
+module
+
+public import Liu.PolarRays
+public import Liu.DiscMean
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real Metric

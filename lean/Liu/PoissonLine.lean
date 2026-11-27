@@ -1,5 +1,9 @@
-import Liu.LinePair
-import Liu.CrossClaim
+module
+
+public import Liu.LinePair
+public import Liu.CrossClaim
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Filter Real

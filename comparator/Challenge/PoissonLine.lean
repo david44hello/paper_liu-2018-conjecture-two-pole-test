@@ -1,7 +1,11 @@
-import Challenge.QuotientDomain
-import Challenge.PickSums
-import Mathlib.Probability.Distributions.Cauchy
-import Challenge.CrossClaim
+module
+
+public import Challenge.QuotientDomain
+public import Challenge.PickSums
+public import Mathlib.Probability.Distributions.Cauchy
+public import Challenge.CrossClaim
+
+@[expose] public section
 
 /- Frozen input: Liu/PoissonLine.lean -/
 noncomputable section

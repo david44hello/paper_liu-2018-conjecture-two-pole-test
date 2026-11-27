@@ -1,4 +1,8 @@
-import Liu.FrozenFieldLimit
+module
+
+public import Liu.FrozenFieldLimit
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real Filter Metric

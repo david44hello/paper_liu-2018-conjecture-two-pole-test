@@ -1,4 +1,8 @@
-import Liu.LocalParameterDerivative
+module
+
+public import Liu.LocalParameterDerivative
+
+@[expose] public section
 
 noncomputable section
 open Set Metric MeasureTheory Filter

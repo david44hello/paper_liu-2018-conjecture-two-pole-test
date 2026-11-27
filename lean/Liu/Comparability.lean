@@ -1,5 +1,9 @@
-import Liu.FarPole
-import Liu.Source
+module
+
+public import Liu.FarPole
+public import Liu.Source
+
+@[expose] public section
 
 noncomputable section
 open Set

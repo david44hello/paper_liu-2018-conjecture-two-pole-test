@@ -1,5 +1,9 @@
-import Liu.ReciprocalDisc
-import Liu.DepthChain
+module
+
+public import Liu.ReciprocalDisc
+public import Liu.DepthChain
+
+@[expose] public section
 
 noncomputable section
 open Set Real MeasureTheory

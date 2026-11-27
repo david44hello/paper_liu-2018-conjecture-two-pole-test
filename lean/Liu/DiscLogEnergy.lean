@@ -1,5 +1,9 @@
-import Liu.DiscLogBound
-import Liu.GaussDerivatives
+module
+
+public import Liu.DiscLogBound
+public import Liu.GaussDerivatives
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real Filter

@@ -1,4 +1,8 @@
-import Liu.CoalescentFactors
+module
+
+public import Liu.CoalescentFactors
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Filter

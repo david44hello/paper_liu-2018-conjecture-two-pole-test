@@ -1,5 +1,9 @@
-import Challenge.SinglePartnerFlux
-import Challenge.CentredMovement
+module
+
+public import Challenge.SinglePartnerFlux
+public import Challenge.CentredMovement
+
+@[expose] public section
 
 /- Frozen input: Liu/CentredDensity.lean -/
 noncomputable section

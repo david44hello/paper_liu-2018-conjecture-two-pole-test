@@ -1,4 +1,8 @@
-import Liu.SeparatedPhysical
+module
+
+public import Liu.SeparatedPhysical
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Filter

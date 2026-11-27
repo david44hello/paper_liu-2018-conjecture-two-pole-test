@@ -1,5 +1,9 @@
-import Liu.SeparatedNodes
-import Liu.LocalParameterIntegral
+module
+
+public import Liu.SeparatedNodes
+public import Liu.LocalParameterIntegral
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Filter

@@ -1,12 +1,16 @@
-import Liu.GaussWeights
-import Liu.GaussDerivatives
+module
+
+public import Liu.GaussWeights
+public import Liu.GaussDerivatives
+
+@[expose] public section
 
 noncomputable section
 open Set Real Filter
 open scoped Topology
 namespace Liu
 
-private def gaussScore (a c : ℝ) := psi (c-2*a)-2*psi (c-a)
+def gaussScore (a c : ℝ) := psi (c-2*a)-2*psi (c-a)
 
 private theorem gaussValue_deriv {a c : ℝ} (ha : 0<a) (hc : 2*a<c) :
     HasDerivAt (gaussValue a) (gaussValue a c*gaussScore a c) c := by

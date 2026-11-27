@@ -1,4 +1,8 @@
-import Liu.Geometry
+module
+
+public import Liu.Geometry
+
+@[expose] public section
 
 noncomputable section
 open scoped ComplexConjugate

@@ -1,10 +1,14 @@
-import Challenge.CanonicalField
-import Challenge.FinitePart
-import Challenge.Pick
-import Challenge.PickSums
-import Challenge.Projection
-import Challenge.Reproducing
-import Challenge.LogSource
+module
+
+public import Challenge.CanonicalField
+public import Challenge.FinitePart
+public import Challenge.Pick
+public import Challenge.PickSums
+public import Challenge.Projection
+public import Challenge.Reproducing
+public import Challenge.LogSource
+
+@[expose] public section
 
 /- Frozen input: Liu/CanonicalRegularity.lean -/
 noncomputable section

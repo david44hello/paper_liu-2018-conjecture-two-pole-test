@@ -1,15 +1,19 @@
-import Challenge.CauchyTransform
-import Challenge.FieldBound
-import Mathlib.Analysis.SpecialFunctions.Complex.LogBounds
-import Challenge.BoundaryField
-import Challenge.RadialEnergy
-import Challenge.QuotientDomain
-import Challenge.PickSums
-import Mathlib.Analysis.Complex.MeanValue
-import Challenge.PoissonLine
-import Challenge.LogSource
-import Challenge.Witness
-import Mathlib.Analysis.Complex.Conformal
+module
+
+public import Challenge.CauchyTransform
+public import Challenge.FieldBound
+public import Mathlib.Analysis.SpecialFunctions.Complex.LogBounds
+public import Challenge.BoundaryField
+public import Challenge.RadialEnergy
+public import Challenge.QuotientDomain
+public import Challenge.PickSums
+public import Mathlib.Analysis.Complex.MeanValue
+public import Challenge.PoissonLine
+public import Challenge.LogSource
+public import Challenge.Witness
+public import Mathlib.Analysis.Complex.Conformal
+
+@[expose] public section
 
 /- Frozen input: Liu/CanonicalField.lean -/
 noncomputable section

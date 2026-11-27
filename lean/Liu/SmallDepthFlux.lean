@@ -1,5 +1,9 @@
-import Liu.PrefixEnvelope
-import Liu.DepthDerivative
+module
+
+public import Liu.PrefixEnvelope
+public import Liu.DepthDerivative
+
+@[expose] public section
 
 noncomputable section
 open Set Real MeasureTheory Filter

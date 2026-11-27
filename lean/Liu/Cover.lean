@@ -1,6 +1,10 @@
-import Liu.BoxData
-import Mathlib.Analysis.Real.Pi.Bounds
-import Mathlib.Analysis.Complex.ExponentialBounds
+module
+
+public import Liu.BoxData
+public import Mathlib.Analysis.Real.Pi.Bounds
+public import Mathlib.Analysis.Complex.ExponentialBounds
+
+@[expose] public section
 
 namespace Liu.Certificate
 

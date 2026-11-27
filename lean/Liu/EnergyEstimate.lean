@@ -1,5 +1,9 @@
-import Liu.Comparability
-import Liu.RadialEnergy
+module
+
+public import Liu.Comparability
+public import Liu.RadialEnergy
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real

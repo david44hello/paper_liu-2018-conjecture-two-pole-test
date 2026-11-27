@@ -1,4 +1,8 @@
-import Liu.Anchor
+module
+
+public import Liu.Anchor
+
+@[expose] public section
 
 noncomputable section
 open MeasureTheory Set Filter

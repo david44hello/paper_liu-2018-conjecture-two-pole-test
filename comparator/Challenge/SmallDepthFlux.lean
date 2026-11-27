@@ -1,7 +1,11 @@
-import Challenge.EdgeTraceEstimates
-import Challenge.PoissonLine
-import Challenge.SingleFlux
-import Challenge.DepthDerivative
+module
+
+public import Challenge.EdgeTraceEstimates
+public import Challenge.PoissonLine
+public import Challenge.SingleFlux
+public import Challenge.DepthDerivative
+
+@[expose] public section
 
 /- Frozen input: Liu/SmallDepthFlux.lean -/
 noncomputable section

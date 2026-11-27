@@ -1,4 +1,8 @@
-import Liu.TrialBound
+module
+
+public import Liu.TrialBound
+
+@[expose] public section
 
 noncomputable section
 open Set Real Complex Filter MeasureTheory

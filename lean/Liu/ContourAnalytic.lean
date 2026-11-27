@@ -1,4 +1,8 @@
-import Liu.ContourNeighborhood
+module
+
+public import Liu.ContourNeighborhood
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Filter Metric Real Complex

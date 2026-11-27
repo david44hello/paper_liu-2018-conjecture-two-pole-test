@@ -1,5 +1,9 @@
-import Liu.RadialEnergy
-import Liu.Potential
+module
+
+public import Liu.RadialEnergy
+public import Liu.Potential
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real Metric

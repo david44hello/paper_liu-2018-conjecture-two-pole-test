@@ -1,5 +1,9 @@
-import Liu.SupercriticalProjection
-import Liu.GreenFreezing
+module
+
+public import Liu.SupercriticalProjection
+public import Liu.GreenFreezing
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Filter Real

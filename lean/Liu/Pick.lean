@@ -1,10 +1,16 @@
-import Mathlib
+module
+
+public import Mathlib
+
+@[expose] public section
 
 /-! Concrete two-pole functions and the normalized half-plane Green potential. -/
 noncomputable section
 open scoped ComplexConjugate
 open MeasureTheory Filter
 namespace Liu
+scoped instance instAtLeastTwo2 : Nat.AtLeastTwo 2 := ⟨Nat.le_refl 2⟩
+
 
 def upper : Set ℂ := {z | 0 < z.im}
 def area : Measure ℂ := ENNReal.ofReal (1 / Real.pi) • volume

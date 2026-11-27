@@ -1,5 +1,9 @@
-import Liu.RationalLogSum
-import Liu.PickZeroLocations
+module
+
+public import Liu.RationalLogSum
+public import Liu.PickZeroLocations
+
+@[expose] public section
 
 noncomputable section
 open Set

@@ -1,5 +1,9 @@
-import Mathlib
-import Challenge.CutSeparation
+module
+
+public import Mathlib
+public import Challenge.CutSeparation
+
+@[expose] public section
 
 /- Frozen input: Liu/CutDomain.lean -/
 noncomputable section

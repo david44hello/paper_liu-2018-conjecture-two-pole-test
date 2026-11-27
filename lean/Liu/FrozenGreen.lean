@@ -1,5 +1,9 @@
-import Liu.GreenDecay
-import Liu.SourceParameter
+module
+
+public import Liu.GreenDecay
+public import Liu.SourceParameter
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real

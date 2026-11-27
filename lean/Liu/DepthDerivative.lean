@@ -1,5 +1,9 @@
-import Liu.BandAverage
-import Liu.SmallMassDeficit
+module
+
+public import Liu.BandAverage
+public import Liu.SmallMassDeficit
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Filter Real

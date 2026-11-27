@@ -1,4 +1,8 @@
-import Liu.VerticalLog
+module
+
+public import Liu.VerticalLog
+
+@[expose] public section
 
 noncomputable section
 open Set Real Complex

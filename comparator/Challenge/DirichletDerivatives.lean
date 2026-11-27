@@ -1,7 +1,11 @@
-import Challenge.WeakBergman
-import Challenge.WitnessClaim
-import Mathlib.Analysis.InnerProductSpace.Laplacian
-import Mathlib.Analysis.Complex.Convex
+module
+
+public import Challenge.WeakBergman
+public import Challenge.WitnessClaim
+public import Mathlib.Analysis.InnerProductSpace.Laplacian
+public import Mathlib.Analysis.Complex.Convex
+
+@[expose] public section
 
 /- Frozen input: Liu/DirichletDerivatives.lean -/
 noncomputable section

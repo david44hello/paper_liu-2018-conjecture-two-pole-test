@@ -1,4 +1,8 @@
-import Challenge.Reproducing
+module
+
+public import Challenge.Reproducing
+
+@[expose] public section
 
 /- Frozen input: Liu/ProjectionKernel.lean -/
 noncomputable section

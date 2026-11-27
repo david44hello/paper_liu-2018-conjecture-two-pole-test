@@ -1,4 +1,8 @@
-import Liu.SupercriticalProjection
+module
+
+public import Liu.SupercriticalProjection
+
+@[expose] public section
 
 noncomputable section
 open Set Filter MeasureTheory Complex Real

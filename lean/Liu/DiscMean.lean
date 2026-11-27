@@ -1,5 +1,9 @@
-import Liu.Denominator
-import Mathlib.Analysis.Complex.MeanValue
+module
+
+public import Liu.Denominator
+public import Mathlib.Analysis.Complex.MeanValue
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real Metric

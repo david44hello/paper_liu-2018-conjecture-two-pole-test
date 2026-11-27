@@ -1,4 +1,8 @@
-import Challenge.PairedFlux
+module
+
+public import Challenge.PairedFlux
+
+@[expose] public section
 
 /- Frozen input: Liu/SinglePartnerFlux.lean -/
 noncomputable section

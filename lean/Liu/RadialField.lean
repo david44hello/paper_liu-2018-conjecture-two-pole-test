@@ -1,7 +1,11 @@
-import Liu.RayAngles
-import Liu.SourceTailComparison
-import Liu.FarDeficit
-import Liu.ClosedGreen
+module
+
+public import Liu.RayAngles
+public import Liu.SourceTailComparison
+public import Liu.FarDeficit
+public import Liu.ClosedGreen
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real Filter

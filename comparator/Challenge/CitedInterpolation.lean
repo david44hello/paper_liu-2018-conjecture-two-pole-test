@@ -1,4 +1,8 @@
-import Challenge.TensorInterpolation
+module
+
+public import Challenge.TensorInterpolation
+
+@[expose] public section
 
 /- Frozen input: Liu/CitedInterpolation.lean -/
 noncomputable section

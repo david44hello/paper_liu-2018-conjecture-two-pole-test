@@ -1,5 +1,9 @@
-import Liu.LocalParameterIntegral
-import Liu.ReciprocalFlux
+module
+
+public import Liu.LocalParameterIntegral
+public import Liu.ReciprocalFlux
+
+@[expose] public section
 
 noncomputable section
 open Set Filter MeasureTheory

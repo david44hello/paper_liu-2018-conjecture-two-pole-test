@@ -1,4 +1,8 @@
-import Liu.ComplexTaylorFlux
+module
+
+public import Liu.ComplexTaylorFlux
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real

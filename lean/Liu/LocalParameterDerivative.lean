@@ -1,4 +1,8 @@
-import Liu.ParameterDiscIntegral
+module
+
+public import Liu.ParameterDiscIntegral
+
+@[expose] public section
 
 noncomputable section
 open Set Metric MeasureTheory Filter

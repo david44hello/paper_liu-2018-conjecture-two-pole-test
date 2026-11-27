@@ -1,4 +1,8 @@
-import Liu.SeparatedDomain
+module
+
+public import Liu.SeparatedDomain
+
+@[expose] public section
 
 noncomputable section
 open Set

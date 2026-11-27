@@ -1,5 +1,9 @@
-import Liu.PrefixTraceBounds
-import Liu.IsolatedMoment
+module
+
+public import Liu.PrefixTraceBounds
+public import Liu.IsolatedMoment
+
+@[expose] public section
 
 noncomputable section
 open Set Real MeasureTheory

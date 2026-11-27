@@ -1,5 +1,9 @@
-import Challenge.SeparatedSource
-import Challenge.TopInterpolationChart
+module
+
+public import Challenge.SeparatedSource
+public import Challenge.TopInterpolationChart
+
+@[expose] public section
 
 /- Frozen input: Liu/TopCollision.lean -/
 noncomputable section

@@ -1,5 +1,9 @@
-import Liu.IntegrableReproducing
-import Liu.PolarizedDefect
+module
+
+public import Liu.IntegrableReproducing
+public import Liu.PolarizedDefect
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real Metric

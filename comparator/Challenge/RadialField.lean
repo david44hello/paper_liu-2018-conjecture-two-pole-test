@@ -1,15 +1,19 @@
-import Challenge.RadialEnergy
-import Challenge.Pick
-import Challenge.PickSums
-import Challenge.Projection
-import Mathlib.Analysis.SpecialFunctions.Complex.LogDeriv
-import Challenge.FieldBound
-import Mathlib.Analysis.SpecialFunctions.Complex.LogBounds
-import Challenge.BoundaryField
-import Challenge.LogSource
-import Challenge.QuotientDomain
-import Challenge.FarDeficit
-import Challenge.PoissonLine
+module
+
+public import Challenge.RadialEnergy
+public import Challenge.Pick
+public import Challenge.PickSums
+public import Challenge.Projection
+public import Mathlib.Analysis.SpecialFunctions.Complex.LogDeriv
+public import Challenge.FieldBound
+public import Mathlib.Analysis.SpecialFunctions.Complex.LogBounds
+public import Challenge.BoundaryField
+public import Challenge.LogSource
+public import Challenge.QuotientDomain
+public import Challenge.FarDeficit
+public import Challenge.PoissonLine
+
+@[expose] public section
 
 /- Frozen input: Liu/RadialField.lean -/
 noncomputable section

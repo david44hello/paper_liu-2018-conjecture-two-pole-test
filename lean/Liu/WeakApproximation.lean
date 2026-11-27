@@ -1,5 +1,9 @@
-import Liu.MollifierEstimate
-import Liu.WeakConvolution
+module
+
+public import Liu.MollifierEstimate
+public import Liu.WeakConvolution
+
+@[expose] public section
 
 noncomputable section
 open Set Metric MeasureTheory Function Complex Filter

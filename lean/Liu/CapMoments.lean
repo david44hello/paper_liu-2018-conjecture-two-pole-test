@@ -1,4 +1,8 @@
-import Liu.DiscLogEnergy
+module
+
+public import Liu.DiscLogEnergy
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real Filter Finset
@@ -40,7 +44,7 @@ private theorem coeff_shift_ratio {a : ℝ} (ha : 0<a) (m j : ℕ) :
     field_simp [hj,hp,h1] at H ⊢
     linear_combination (norm := ring) (a+m+j)*H
 
-private def momentGamma (a b : ℝ) (m : ℕ) := capCoeff a m/((m:ℝ)+1)*
+def momentGamma (a b : ℝ) (m : ℕ) := capCoeff a m/((m:ℝ)+1)*
   (Gamma ((m:ℝ)+2)*Gamma (2-a-b)/(Gamma (2-a)*Gamma ((m:ℝ)+2-b)))
 
 theorem discPower_shifted_pairing {a b : ℝ} (ha : a∈Set.Ioo 0 1) (hb : b∈Set.Ioo 0 1) (m : ℕ) :

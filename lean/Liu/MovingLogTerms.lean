@@ -1,5 +1,9 @@
-import Liu.PairedLogBounds
-import Liu.DominatedFamily
+module
+
+public import Liu.PairedLogBounds
+public import Liu.DominatedFamily
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Filter Real Complex

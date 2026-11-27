@@ -1,5 +1,9 @@
-import Liu.DiscBinomial
-import Liu.CapExpansion
+module
+
+public import Liu.DiscBinomial
+public import Liu.CapExpansion
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real Metric

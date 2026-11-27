@@ -1,5 +1,9 @@
-import Liu.EdgeModulusIntegral
-import Liu.EdgeRealTrace
+module
+
+public import Liu.EdgeModulusIntegral
+public import Liu.EdgeRealTrace
+
+@[expose] public section
 
 noncomputable section
 open Set Real MeasureTheory

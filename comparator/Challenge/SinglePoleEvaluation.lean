@@ -1,16 +1,20 @@
-import Challenge.FieldBound
-import Mathlib.Analysis.SpecialFunctions.Complex.LogBounds
-import Challenge.BoundaryField
-import Challenge.RadialEnergy
-import Challenge.QuotientDomain
-import Challenge.PickSums
-import Mathlib.Analysis.Complex.MeanValue
-import Challenge.CapWeights
-import Mathlib.MeasureTheory.Function.LpSpace.InfiniteSum
-import Challenge.SinglePoleReduction
-import Challenge.IntegrableReproducing
-import Challenge.SinglePoleDigits
-import Mathlib.NumberTheory.LSeries.RiemannZeta
+module
+
+public import Challenge.FieldBound
+public import Mathlib.Analysis.SpecialFunctions.Complex.LogBounds
+public import Challenge.BoundaryField
+public import Challenge.RadialEnergy
+public import Challenge.QuotientDomain
+public import Challenge.PickSums
+public import Mathlib.Analysis.Complex.MeanValue
+public import Challenge.CapWeights
+public import Mathlib.MeasureTheory.Function.LpSpace.InfiniteSum
+public import Challenge.SinglePoleReduction
+public import Challenge.IntegrableReproducing
+public import Challenge.SinglePoleDigits
+public import Mathlib.NumberTheory.LSeries.RiemannZeta
+
+@[expose] public section
 
 /- Frozen input: Liu/SinglePoleEvaluation.lean -/
 noncomputable section

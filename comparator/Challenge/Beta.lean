@@ -1,6 +1,10 @@
-import Challenge.Cover
-import Mathlib
-import Challenge.Pick
+module
+
+public import Challenge.Cover
+public import Mathlib
+public import Challenge.Pick
+
+@[expose] public section
 
 /- Frozen input: Liu/Beta.lean -/
 noncomputable section

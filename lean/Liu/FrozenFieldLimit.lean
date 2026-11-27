@@ -1,4 +1,8 @@
-import Liu.PhysicalFreezing
+module
+
+public import Liu.PhysicalFreezing
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real Filter Metric

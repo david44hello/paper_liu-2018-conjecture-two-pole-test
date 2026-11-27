@@ -1,4 +1,8 @@
-import Liu.PowerWindow
+module
+
+public import Liu.PowerWindow
+
+@[expose] public section
 
 noncomputable section
 namespace Liu

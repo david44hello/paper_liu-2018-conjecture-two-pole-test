@@ -1,5 +1,9 @@
-import Liu.SlitPrimitives
-import Liu.CutSeparation
+module
+
+public import Liu.SlitPrimitives
+public import Liu.CutSeparation
+
+@[expose] public section
 
 noncomputable section
 open Set Filter Real Complex

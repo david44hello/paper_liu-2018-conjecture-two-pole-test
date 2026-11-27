@@ -1,4 +1,8 @@
-import Mathlib
+module
+
+public import Mathlib
+
+@[expose] public section
 
 /- Frozen input: Liu/ChebyshevEllipse.lean -/
 noncomputable section

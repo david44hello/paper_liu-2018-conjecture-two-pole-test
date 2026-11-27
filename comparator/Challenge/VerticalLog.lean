@@ -1,4 +1,8 @@
-import Challenge.PickRationalLog
+module
+
+public import Challenge.PickRationalLog
+
+@[expose] public section
 
 /- Frozen input: Liu/VerticalLog.lean -/
 noncomputable section

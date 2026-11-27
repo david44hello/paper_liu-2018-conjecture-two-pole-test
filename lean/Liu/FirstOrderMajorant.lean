@@ -1,4 +1,8 @@
-import Liu.UnitTruncation
+module
+
+public import Liu.UnitTruncation
+
+@[expose] public section
 
 noncomputable section
 open Set Real MeasureTheory Metric

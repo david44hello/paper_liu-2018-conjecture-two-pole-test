@@ -1,4 +1,8 @@
-import Liu.AngularModel
+module
+
+public import Liu.AngularModel
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Filter Real

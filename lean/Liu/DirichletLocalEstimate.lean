@@ -1,4 +1,8 @@
-import Liu.DirichletParametrix
+module
+
+public import Liu.DirichletParametrix
+
+@[expose] public section
 
 noncomputable section
 open Set Filter Metric MeasureTheory Real Complex InnerProductSpace

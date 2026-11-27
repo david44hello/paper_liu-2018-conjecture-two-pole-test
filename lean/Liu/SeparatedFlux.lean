@@ -1,4 +1,8 @@
-import Liu.SeparatedSource
+module
+
+public import Liu.SeparatedSource
+
+@[expose] public section
 
 noncomputable section
 open Set Real MeasureTheory Filter

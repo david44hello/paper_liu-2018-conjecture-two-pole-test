@@ -1,7 +1,11 @@
-import Challenge.PickNumerator
-import Challenge.SeparatedSource
-import Mathlib.Analysis.Analytic.IsolatedZeros
-import Challenge.OnePoleBounds
+module
+
+public import Challenge.PickNumerator
+public import Challenge.SeparatedSource
+public import Mathlib.Analysis.Analytic.IsolatedZeros
+public import Challenge.OnePoleBounds
+
+@[expose] public section
 
 /- Frozen input: Liu/PickRationalLog.lean -/
 noncomputable section

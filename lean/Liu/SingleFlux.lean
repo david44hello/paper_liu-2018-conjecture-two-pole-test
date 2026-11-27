@@ -1,4 +1,8 @@
-import Liu.TraceBound
+module
+
+public import Liu.TraceBound
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real

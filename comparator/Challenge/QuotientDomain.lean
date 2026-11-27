@@ -1,4 +1,8 @@
-import Challenge.PickSums
+module
+
+public import Challenge.PickSums
+
+@[expose] public section
 
 /- Frozen input: Liu/QuotientDomain.lean -/
 noncomputable section

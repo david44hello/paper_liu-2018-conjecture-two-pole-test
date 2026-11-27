@@ -1,4 +1,8 @@
-import Challenge.FluxDecomposition
+module
+
+public import Challenge.FluxDecomposition
+
+@[expose] public section
 
 /- Frozen input: Liu/EdgeConvolution.lean -/
 noncomputable section

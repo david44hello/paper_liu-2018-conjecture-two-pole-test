@@ -1,6 +1,10 @@
-import Challenge.ChebyshevEllipse
-import Challenge.ChebyshevAlias
-import Mathlib.Analysis.Fourier.AddCircle
+module
+
+public import Challenge.ChebyshevEllipse
+public import Challenge.ChebyshevAlias
+public import Mathlib.Analysis.Fourier.AddCircle
+
+@[expose] public section
 
 /- Frozen input: Liu/ChebyshevApproximation.lean -/
 noncomputable section

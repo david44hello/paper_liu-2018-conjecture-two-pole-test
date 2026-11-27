@@ -1,4 +1,8 @@
-import Liu.ExteriorEnergyError
+module
+
+public import Liu.ExteriorEnergyError
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Filter Real Metric

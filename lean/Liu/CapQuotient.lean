@@ -1,4 +1,8 @@
-import Liu.CapHilbert
+module
+
+public import Liu.CapHilbert
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real Filter

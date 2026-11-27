@@ -1,14 +1,18 @@
-import Challenge.SupercriticalEnergy
-import Challenge.ProjectionKernel
-import Challenge.QuotientDomain
-import Challenge.PickSums
-import Challenge.RadialEnergy
-import Challenge.FieldBound
-import Mathlib.Analysis.SpecialFunctions.Complex.LogBounds
-import Challenge.BoundaryField
-import Challenge.LogSource
-import Challenge.Pick
-import Challenge.Projection
+module
+
+public import Challenge.SupercriticalEnergy
+public import Challenge.ProjectionKernel
+public import Challenge.QuotientDomain
+public import Challenge.PickSums
+public import Challenge.RadialEnergy
+public import Challenge.FieldBound
+public import Mathlib.Analysis.SpecialFunctions.Complex.LogBounds
+public import Challenge.BoundaryField
+public import Challenge.LogSource
+public import Challenge.Pick
+public import Challenge.Projection
+
+@[expose] public section
 
 /- Frozen input: Liu/FieldComparison.lean -/
 noncomputable section

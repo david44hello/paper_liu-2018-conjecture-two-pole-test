@@ -1,5 +1,9 @@
-import Liu.KernelWeight
-import Liu.LogOscillation
+module
+
+public import Liu.KernelWeight
+public import Liu.LogOscillation
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real

@@ -1,6 +1,10 @@
-import Liu.TopCollision
-import Liu.ChebyshevEllipse
-import Liu.CellPartners
+module
+
+public import Liu.TopCollision
+public import Liu.ChebyshevEllipse
+public import Liu.CellPartners
+
+@[expose] public section
 
 noncomputable section
 open Set Real Filter

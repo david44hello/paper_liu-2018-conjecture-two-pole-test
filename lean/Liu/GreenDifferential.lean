@@ -1,4 +1,8 @@
-import Liu.GreenLinearization
+module
+
+public import Liu.GreenLinearization
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real

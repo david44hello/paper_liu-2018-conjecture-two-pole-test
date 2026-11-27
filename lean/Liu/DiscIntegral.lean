@@ -1,4 +1,8 @@
-import Liu.Cayley
+module
+
+public import Liu.Cayley
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Metric Filter Real

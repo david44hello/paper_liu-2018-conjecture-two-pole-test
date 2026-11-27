@@ -1,7 +1,11 @@
-import Challenge.FarFieldClaim
-import Challenge.CanonicalField
-import Challenge.Orthogonality
-import Challenge.Witness
+module
+
+public import Challenge.FarFieldClaim
+public import Challenge.CanonicalField
+public import Challenge.Orthogonality
+public import Challenge.Witness
+
+@[expose] public section
 
 /- Frozen input: Liu/WitnessClaim.lean -/
 noncomputable section

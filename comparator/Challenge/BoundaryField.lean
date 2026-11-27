@@ -1,6 +1,10 @@
-import Challenge.Pick
-import Challenge.PickSums
-import Challenge.Projection
+module
+
+public import Challenge.Pick
+public import Challenge.PickSums
+public import Challenge.Projection
+
+@[expose] public section
 
 /- Frozen input: Liu/BoundaryField.lean -/
 noncomputable section

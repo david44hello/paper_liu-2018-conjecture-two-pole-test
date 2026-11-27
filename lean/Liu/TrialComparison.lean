@@ -1,5 +1,9 @@
-import Liu.TrialOrthogonality
-import Liu.BergmanLpNorm
+module
+
+public import Liu.TrialOrthogonality
+public import Liu.BergmanLpNorm
+
+@[expose] public section
 
 noncomputable section
 open Set Filter MeasureTheory Real Complex

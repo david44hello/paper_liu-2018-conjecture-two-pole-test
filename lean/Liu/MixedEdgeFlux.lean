@@ -1,5 +1,9 @@
-import Liu.MixedNorm
-import Liu.MixedPairBound
+module
+
+public import Liu.MixedNorm
+public import Liu.MixedPairBound
+
+@[expose] public section
 
 noncomputable section
 open Set Real MeasureTheory Filter

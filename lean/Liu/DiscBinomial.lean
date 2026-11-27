@@ -1,4 +1,8 @@
-import Liu.DiscPowerL2
+module
+
+public import Liu.DiscPowerL2
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real Filter Finset Metric

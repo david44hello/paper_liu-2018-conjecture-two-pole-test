@@ -1,4 +1,8 @@
-import Liu.Comparability
+module
+
+public import Liu.Comparability
+
+@[expose] public section
 
 noncomputable section
 open Set Polynomial Filter

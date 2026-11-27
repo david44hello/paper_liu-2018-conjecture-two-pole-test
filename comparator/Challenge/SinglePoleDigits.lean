@@ -1,5 +1,9 @@
-import Challenge.Mass
-import Mathlib.Analysis.PSeries
+module
+
+public import Challenge.Mass
+public import Mathlib.Analysis.PSeries
+
+@[expose] public section
 
 /- Frozen input: Liu/SinglePoleDigits.lean -/
 noncomputable section

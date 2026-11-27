@@ -1,5 +1,9 @@
-import Challenge.BoundaryField
-import Challenge.PoissonLine
+module
+
+public import Challenge.BoundaryField
+public import Challenge.PoissonLine
+
+@[expose] public section
 
 /- Frozen input: Liu/SingleTrace.lean -/
 noncomputable section

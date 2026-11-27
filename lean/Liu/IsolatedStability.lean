@@ -1,4 +1,8 @@
-import Liu.IsolatedMoment
+module
+
+public import Liu.IsolatedMoment
+
+@[expose] public section
 
 noncomputable section
 open Set Real MeasureTheory

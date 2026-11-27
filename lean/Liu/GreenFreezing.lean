@@ -1,5 +1,9 @@
-import Liu.GreenPairing
-import Liu.PolarizedDefect
+module
+
+public import Liu.GreenPairing
+public import Liu.PolarizedDefect
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real

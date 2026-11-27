@@ -1,4 +1,8 @@
-import Liu.MovingLogTerms
+module
+
+public import Liu.MovingLogTerms
+
+@[expose] public section
 
 noncomputable section
 open Set Complex

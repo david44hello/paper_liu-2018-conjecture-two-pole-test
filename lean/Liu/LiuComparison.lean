@@ -1,4 +1,8 @@
-import Liu.TrialComparison
+module
+
+public import Liu.TrialComparison
+
+@[expose] public section
 
 noncomputable section
 open Set Filter MeasureTheory Real Complex

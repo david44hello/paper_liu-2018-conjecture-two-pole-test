@@ -1,4 +1,8 @@
-import Liu.PickSums
+module
+
+public import Liu.PickSums
+
+@[expose] public section
 
 noncomputable section
 open scoped ComplexConjugate

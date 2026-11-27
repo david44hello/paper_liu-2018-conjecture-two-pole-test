@@ -1,5 +1,9 @@
-import Liu.ExteriorIntegral
-import Liu.FinitePartLaws
+module
+
+public import Liu.ExteriorIntegral
+public import Liu.FinitePartLaws
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Filter Real Metric

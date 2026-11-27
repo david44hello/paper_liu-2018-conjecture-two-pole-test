@@ -1,4 +1,8 @@
-import Mathlib
+module
+
+public import Mathlib
+
+@[expose] public section
 
 /-! Integration of a logarithmic majorant above any positive lower depth. -/
 open Set MeasureTheory

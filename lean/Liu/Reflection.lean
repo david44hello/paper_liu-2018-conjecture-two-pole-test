@@ -1,4 +1,8 @@
-import Liu.Dilation
+module
+
+public import Liu.Dilation
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Filter

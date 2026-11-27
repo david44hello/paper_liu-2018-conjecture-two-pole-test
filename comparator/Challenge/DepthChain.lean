@@ -1,4 +1,8 @@
-import Challenge.ReciprocalTail
+module
+
+public import Challenge.ReciprocalTail
+
+@[expose] public section
 
 /- Frozen input: Liu/DepthChain.lean -/
 noncomputable section

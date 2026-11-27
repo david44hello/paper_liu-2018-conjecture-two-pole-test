@@ -1,4 +1,8 @@
-import Liu.Reproducing
+module
+
+public import Liu.Reproducing
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Filter

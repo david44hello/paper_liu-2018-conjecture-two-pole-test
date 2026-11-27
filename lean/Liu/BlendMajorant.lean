@@ -1,5 +1,9 @@
-import Liu.BlendRegions
-import Liu.PoleArea
+module
+
+public import Liu.BlendRegions
+public import Liu.PoleArea
+
+@[expose] public section
 
 noncomputable section
 open Set Real MeasureTheory

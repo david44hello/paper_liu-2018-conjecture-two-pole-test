@@ -1,4 +1,8 @@
-import Liu.PhysicalBlend
+module
+
+public import Liu.PhysicalBlend
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Filter

@@ -1,4 +1,8 @@
-import Liu.LogTailKernel
+module
+
+public import Liu.LogTailKernel
+
+@[expose] public section
 
 noncomputable section
 open Set Real Polynomial

@@ -1,4 +1,8 @@
-import Liu.TraceKernel
+module
+
+public import Liu.TraceKernel
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Filter Real

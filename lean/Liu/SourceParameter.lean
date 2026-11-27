@@ -1,5 +1,9 @@
-import Liu.PowerSource
-import Liu.KernelControl
+module
+
+public import Liu.PowerSource
+public import Liu.KernelControl
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real

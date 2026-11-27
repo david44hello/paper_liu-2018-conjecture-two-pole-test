@@ -1,5 +1,9 @@
-import Liu.LogSource
-import Liu.GreenBoundary
+module
+
+public import Liu.LogSource
+public import Liu.GreenBoundary
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Metric Real

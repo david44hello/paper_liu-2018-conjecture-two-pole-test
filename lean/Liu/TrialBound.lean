@@ -1,4 +1,8 @@
-import Liu.TrialExpansion
+module
+
+public import Liu.TrialExpansion
+
+@[expose] public section
 
 noncomputable section
 open Set Real Complex

@@ -1,4 +1,8 @@
-import Liu.SingleFlux
+module
+
+public import Liu.SingleFlux
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real

@@ -1,4 +1,8 @@
-import Mathlib
+module
+
+public import Mathlib
+
+@[expose] public section
 
 /-! Exact parameter intervals and depth breakpoints for the two-pole certificate. -/
 namespace Liu.Certificate

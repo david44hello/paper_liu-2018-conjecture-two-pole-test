@@ -1,4 +1,8 @@
-import Liu.WeakApproximation
+module
+
+public import Liu.WeakApproximation
+
+@[expose] public section
 
 noncomputable section
 open Set Filter MeasureTheory Real Metric

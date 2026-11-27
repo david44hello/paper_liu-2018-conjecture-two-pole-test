@@ -1,12 +1,16 @@
-import Liu.DirichletDerivatives
-import Mathlib.Analysis.InnerProductSpace.Harmonic.Constructions
+module
+
+public import Liu.DirichletDerivatives
+public import Mathlib.Analysis.InnerProductSpace.Harmonic.Constructions
+
+@[expose] public section
 
 noncomputable section
 open Set Filter MeasureTheory Real Complex Metric InnerProductSpace
 open scoped Topology ContDiff ComplexConjugate
 namespace Liu
 
-private def coreBump : ContDiffBump (0:ℂ) := ⟨1/4,1/2,by norm_num,by norm_num⟩
+def coreBump : ContDiffBump (0:ℂ) := ⟨1/4,1/2,by norm_num,by norm_num⟩
 def smoothInverse (w : ℂ) : ℂ := (1-(coreBump w:ℂ))/w
 
 theorem smoothInverse_regular : ContDiff ℝ ∞ smoothInverse := by

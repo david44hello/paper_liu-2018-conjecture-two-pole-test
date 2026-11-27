@@ -1,4 +1,8 @@
-import Liu.Bergman
+module
+
+public import Liu.Bergman
+
+@[expose] public section
 
 noncomputable section
 open MeasureTheory Set

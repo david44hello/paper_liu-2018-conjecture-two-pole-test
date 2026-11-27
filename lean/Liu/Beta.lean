@@ -1,6 +1,10 @@
-import Liu.Cover
-import Liu.ExpBounds
-import Liu.Pick
+module
+
+public import Liu.Cover
+public import Liu.ExpBounds
+public import Liu.Pick
+
+@[expose] public section
 
 noncomputable section
 namespace Liu.Certificate

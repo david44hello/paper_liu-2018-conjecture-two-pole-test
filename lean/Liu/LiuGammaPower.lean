@@ -1,5 +1,9 @@
-import Liu.LiuGammaTrial
-import Liu.SlopeFormula
+module
+
+public import Liu.LiuGammaTrial
+public import Liu.SlopeFormula
+
+@[expose] public section
 
 noncomputable section
 open Set Filter Real

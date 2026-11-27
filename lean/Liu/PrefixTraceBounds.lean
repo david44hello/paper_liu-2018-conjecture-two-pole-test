@@ -1,4 +1,8 @@
-import Liu.EdgeTraceEstimates
+module
+
+public import Liu.EdgeTraceEstimates
+
+@[expose] public section
 
 noncomputable section
 open Set Real MeasureTheory

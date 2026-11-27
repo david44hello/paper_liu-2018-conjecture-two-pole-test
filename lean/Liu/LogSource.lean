@@ -1,5 +1,9 @@
-import Liu.PowerDecay
-import Liu.Potential
+module
+
+public import Liu.PowerDecay
+public import Liu.Potential
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory

@@ -1,5 +1,9 @@
-import Liu.EdgeTraceL1
-import Liu.PoleArea
+module
+
+public import Liu.EdgeTraceL1
+public import Liu.PoleArea
+
+@[expose] public section
 
 noncomputable section
 open Set Real MeasureTheory

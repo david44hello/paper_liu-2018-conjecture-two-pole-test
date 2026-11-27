@@ -1,4 +1,8 @@
-import Challenge.Bergman
+module
+
+public import Challenge.Bergman
+
+@[expose] public section
 
 /- Frozen input: Liu/PickSums.lean -/
 noncomputable section

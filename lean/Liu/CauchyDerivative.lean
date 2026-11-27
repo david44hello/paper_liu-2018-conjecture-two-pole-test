@@ -1,5 +1,9 @@
-import Liu.CauchyTransform
-import Liu.CauchyDisc
+module
+
+public import Liu.CauchyTransform
+public import Liu.CauchyDisc
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real Filter Metric

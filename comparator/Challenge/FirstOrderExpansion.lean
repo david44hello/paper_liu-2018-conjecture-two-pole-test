@@ -1,6 +1,10 @@
-import Challenge.BlendExpansion
-import Challenge.ClusterGeometry
-import Challenge.SmallRemainder
+module
+
+public import Challenge.BlendExpansion
+public import Challenge.ClusterGeometry
+public import Challenge.SmallRemainder
+
+@[expose] public section
 
 /- Frozen input: Liu/FirstOrderExpansion.lean -/
 noncomputable section

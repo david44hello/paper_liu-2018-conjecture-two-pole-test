@@ -1,5 +1,9 @@
-import Liu.GreenRadialWeights
-import Mathlib.Analysis.SpecialFunctions.Complex.LogDeriv
+module
+
+public import Liu.GreenRadialWeights
+public import Mathlib.Analysis.SpecialFunctions.Complex.LogDeriv
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Filter Real

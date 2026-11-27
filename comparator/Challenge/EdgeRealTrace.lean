@@ -1,9 +1,13 @@
-import Challenge.CrossClaim
-import Challenge.EdgeConvolution
-import Challenge.RadialEnergy
-import Challenge.Pick
-import Challenge.PickSums
-import Challenge.Projection
+module
+
+public import Challenge.CrossClaim
+public import Challenge.EdgeConvolution
+public import Challenge.RadialEnergy
+public import Challenge.Pick
+public import Challenge.PickSums
+public import Challenge.Projection
+
+@[expose] public section
 
 /- Frozen input: Liu/EdgeRealTrace.lean -/
 noncomputable section

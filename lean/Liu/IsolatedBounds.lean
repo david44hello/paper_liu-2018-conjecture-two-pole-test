@@ -1,4 +1,8 @@
-import Liu.SingleTrace
+module
+
+public import Liu.SingleTrace
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real

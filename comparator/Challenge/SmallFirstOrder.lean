@@ -1,5 +1,9 @@
-import Challenge.FirstOrderMajorant
-import Challenge.FirstOrderExpansion
+module
+
+public import Challenge.FirstOrderMajorant
+public import Challenge.FirstOrderExpansion
+
+@[expose] public section
 
 /- Frozen input: Liu/SmallFirstOrder.lean -/
 noncomputable section

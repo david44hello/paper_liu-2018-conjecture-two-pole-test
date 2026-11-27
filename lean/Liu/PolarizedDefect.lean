@@ -1,4 +1,8 @@
-import Liu.GreenVariation
+module
+
+public import Liu.GreenVariation
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real

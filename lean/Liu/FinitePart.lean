@@ -1,5 +1,9 @@
-import Liu.Projection
-import Liu.CoordinateReduction
+module
+
+public import Liu.Projection
+public import Liu.CoordinateReduction
+
+@[expose] public section
 
 noncomputable section
 open MeasureTheory Set Filter

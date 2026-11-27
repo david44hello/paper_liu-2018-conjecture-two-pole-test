@@ -1,4 +1,8 @@
-import Liu.FluxDecomposition
+module
+
+public import Liu.FluxDecomposition
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real

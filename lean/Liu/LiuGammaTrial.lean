@@ -1,5 +1,9 @@
-import Liu.CapExpansion
-import Liu.GaussDerivatives
+module
+
+public import Liu.CapExpansion
+public import Liu.GaussDerivatives
+
+@[expose] public section
 
 noncomputable section
 open Set Filter Real

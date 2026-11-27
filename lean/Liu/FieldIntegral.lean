@@ -1,5 +1,9 @@
-import Liu.GreenInterior
-import Liu.BoundaryField
+module
+
+public import Liu.GreenInterior
+public import Liu.BoundaryField
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real

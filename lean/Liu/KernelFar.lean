@@ -1,4 +1,8 @@
-import Liu.KernelControl
+module
+
+public import Liu.KernelControl
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Metric Real

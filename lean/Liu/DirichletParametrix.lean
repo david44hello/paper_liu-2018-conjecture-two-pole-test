@@ -1,5 +1,9 @@
-import Liu.CompactDirichletField
-import Liu.RegularKernelBounds
+module
+
+public import Liu.CompactDirichletField
+public import Liu.RegularKernelBounds
+
+@[expose] public section
 
 noncomputable section
 open Set Filter Metric MeasureTheory Real Complex InnerProductSpace

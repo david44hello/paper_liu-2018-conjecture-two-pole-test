@@ -1,5 +1,9 @@
-import Liu.OnePoleBounds
-import Liu.Blend
+module
+
+public import Liu.OnePoleBounds
+public import Liu.Blend
+
+@[expose] public section
 
 noncomputable section
 open Set Real

@@ -1,5 +1,9 @@
-import Liu.BoundaryField
-import Liu.PoissonLine
+module
+
+public import Liu.BoundaryField
+public import Liu.PoissonLine
+
+@[expose] public section
 
 noncomputable section
 open MeasureTheory Real Set

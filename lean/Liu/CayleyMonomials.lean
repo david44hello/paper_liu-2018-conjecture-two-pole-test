@@ -1,5 +1,9 @@
-import Liu.CapMoments
-import Liu.IntegrableReproducing
+module
+
+public import Liu.CapMoments
+public import Liu.IntegrableReproducing
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real Filter Finset

@@ -1,6 +1,10 @@
-import Challenge.SlopeFormula
-import Challenge.BoundaryField
-import Challenge.PoissonLine
+module
+
+public import Challenge.SlopeFormula
+public import Challenge.BoundaryField
+public import Challenge.PoissonLine
+
+@[expose] public section
 
 /- Frozen input: Liu/SinglePoleReduction.lean -/
 noncomputable section

@@ -1,5 +1,9 @@
-import Liu.AngularEndpoint
-import Mathlib.Analysis.Calculus.LocalExtr.Rolle
+module
+
+public import Liu.AngularEndpoint
+public import Mathlib.Analysis.Calculus.LocalExtr.Rolle
+
+@[expose] public section
 
 noncomputable section
 open Set Real

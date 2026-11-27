@@ -1,5 +1,9 @@
-import Liu.CauchyDisc
-import Liu.CapWeights
+module
+
+public import Liu.CauchyDisc
+public import Liu.CapWeights
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real Metric Filter

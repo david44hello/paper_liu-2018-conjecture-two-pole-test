@@ -1,5 +1,9 @@
-import Liu.ProjectionKernel
-import Liu.LiuGammaPower
+module
+
+public import Liu.ProjectionKernel
+public import Liu.LiuGammaPower
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real Complex

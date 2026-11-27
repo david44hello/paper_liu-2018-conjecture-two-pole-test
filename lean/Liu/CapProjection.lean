@@ -1,4 +1,8 @@
-import Liu.CayleyMonomials
+module
+
+public import Liu.CayleyMonomials
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real Filter Finset

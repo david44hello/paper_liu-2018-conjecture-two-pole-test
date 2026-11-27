@@ -1,6 +1,10 @@
-import Challenge.FinitePart
-import Mathlib.Analysis.SpecialFunctions.PolarCoord
-import Mathlib.Analysis.SpecialFunctions.ImproperIntegrals
+module
+
+public import Challenge.FinitePart
+public import Mathlib.Analysis.SpecialFunctions.PolarCoord
+public import Mathlib.Analysis.SpecialFunctions.ImproperIntegrals
+
+@[expose] public section
 
 /- Frozen input: Liu/RadialEnergy.lean -/
 noncomputable section

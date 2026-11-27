@@ -1,4 +1,8 @@
-import Liu.PairedFlux
+module
+
+public import Liu.PairedFlux
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Filter Real Complex

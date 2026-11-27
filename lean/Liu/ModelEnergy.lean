@@ -1,5 +1,9 @@
-import Liu.ModelFarField
-import Liu.AngularDeficit
+module
+
+public import Liu.ModelFarField
+public import Liu.AngularDeficit
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real Filter

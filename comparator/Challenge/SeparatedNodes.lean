@@ -1,4 +1,8 @@
-import Challenge.ReciprocalModel
+module
+
+public import Challenge.ReciprocalModel
+
+@[expose] public section
 
 /- Frozen input: Liu/SeparatedNodes.lean -/
 noncomputable section

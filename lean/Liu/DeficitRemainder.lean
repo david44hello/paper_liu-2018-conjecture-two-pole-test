@@ -1,4 +1,8 @@
-import Liu.AngularDeficit
+module
+
+public import Liu.AngularDeficit
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Filter Metric Real

@@ -1,6 +1,10 @@
-import Liu.WeakPrimitive
-import Mathlib.Analysis.Calculus.ContDiff.Convolution
-import Mathlib.Analysis.Calculus.BumpFunction.Convolution
+module
+
+public import Liu.WeakPrimitive
+public import Mathlib.Analysis.Calculus.ContDiff.Convolution
+public import Mathlib.Analysis.Calculus.BumpFunction.Convolution
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Filter Complex Function

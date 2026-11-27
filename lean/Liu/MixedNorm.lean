@@ -1,4 +1,8 @@
-import Liu.MixedTrace
+module
+
+public import Liu.MixedTrace
+
+@[expose] public section
 
 noncomputable section
 open Set Real MeasureTheory

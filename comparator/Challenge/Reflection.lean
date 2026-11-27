@@ -1,7 +1,11 @@
-import Challenge.FinitePart
-import Challenge.Pick
-import Challenge.PickSums
-import Challenge.Projection
+module
+
+public import Challenge.FinitePart
+public import Challenge.Pick
+public import Challenge.PickSums
+public import Challenge.Projection
+
+@[expose] public section
 
 /- Frozen input: Liu/Reflection.lean -/
 noncomputable section

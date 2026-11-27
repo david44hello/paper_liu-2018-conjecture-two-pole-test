@@ -1,6 +1,10 @@
-import Liu.FieldIntegral
-import Liu.RadialSource
-import Liu.GreenRadialWeights
+module
+
+public import Liu.FieldIntegral
+public import Liu.RadialSource
+public import Liu.GreenRadialWeights
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real Metric

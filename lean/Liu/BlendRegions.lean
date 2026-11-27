@@ -1,4 +1,8 @@
-import Liu.BlendExpansion
+module
+
+public import Liu.BlendExpansion
+
+@[expose] public section
 
 noncomputable section
 open Set Real

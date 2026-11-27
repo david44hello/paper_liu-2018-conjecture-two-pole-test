@@ -1,6 +1,10 @@
-import Liu.ChebyshevEllipse
-import Liu.ChebyshevAlias
-import Mathlib.Analysis.Fourier.AddCircle
+module
+
+public import Liu.ChebyshevEllipse
+public import Liu.ChebyshevAlias
+public import Mathlib.Analysis.Fourier.AddCircle
+
+@[expose] public section
 
 noncomputable section
 open Real Set MeasureTheory Metric Polynomial Polynomial.Chebyshev Complex

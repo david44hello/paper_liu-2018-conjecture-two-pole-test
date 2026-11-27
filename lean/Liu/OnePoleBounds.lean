@@ -1,4 +1,8 @@
-import Liu.OnePoleIdentity
+module
+
+public import Liu.OnePoleIdentity
+
+@[expose] public section
 
 noncomputable section
 open Set Real

@@ -1,5 +1,9 @@
-import Liu.RegularResolvent
-import Liu.GreenInterior
+module
+
+public import Liu.RegularResolvent
+public import Liu.GreenInterior
+
+@[expose] public section
 
 noncomputable section
 open Set Metric Filter Real Complex MeasureTheory InnerProductSpace

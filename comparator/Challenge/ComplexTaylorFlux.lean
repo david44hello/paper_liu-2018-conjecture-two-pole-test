@@ -1,4 +1,8 @@
-import Challenge.CentredDensity
+module
+
+public import Challenge.CentredDensity
+
+@[expose] public section
 
 /- Frozen input: Liu/ComplexTaylorFlux.lean -/
 noncomputable section

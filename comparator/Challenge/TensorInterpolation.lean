@@ -1,4 +1,8 @@
-import Challenge.ChebyshevApproximation
+module
+
+public import Challenge.ChebyshevApproximation
+
+@[expose] public section
 
 /- Frozen input: Liu/TensorInterpolation.lean -/
 noncomputable section

@@ -1,4 +1,8 @@
-import Liu.ResidualBound
+module
+
+public import Liu.ResidualBound
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory

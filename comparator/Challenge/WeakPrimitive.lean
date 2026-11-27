@@ -1,8 +1,12 @@
-import Challenge.SupercriticalEnergy
-import Challenge.ProjectionKernel
-import Challenge.QuotientDomain
-import Challenge.PickSums
-import Challenge.RadialEnergy
+module
+
+public import Challenge.SupercriticalEnergy
+public import Challenge.ProjectionKernel
+public import Challenge.QuotientDomain
+public import Challenge.PickSums
+public import Challenge.RadialEnergy
+
+@[expose] public section
 
 /- Frozen input: Liu/WeakPrimitive.lean -/
 noncomputable section

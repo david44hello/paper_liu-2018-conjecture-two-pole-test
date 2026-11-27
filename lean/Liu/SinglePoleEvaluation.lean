@@ -1,7 +1,11 @@
-import Liu.CapQuotient
-import Liu.DifferentiatedGauss
-import Liu.SinglePoleDigits
-import Mathlib.NumberTheory.LSeries.RiemannZeta
+module
+
+public import Liu.CapQuotient
+public import Liu.DifferentiatedGauss
+public import Liu.SinglePoleDigits
+public import Mathlib.NumberTheory.LSeries.RiemannZeta
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real Filter

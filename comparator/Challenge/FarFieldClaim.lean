@@ -1,6 +1,10 @@
-import Challenge.RadialField
-import Challenge.AngularPotential
-import Challenge.FinitePartLaws
+module
+
+public import Challenge.RadialField
+public import Challenge.AngularPotential
+public import Challenge.FinitePartLaws
+
+@[expose] public section
 
 /- Frozen input: Liu/FarFieldClaim.lean -/
 noncomputable section

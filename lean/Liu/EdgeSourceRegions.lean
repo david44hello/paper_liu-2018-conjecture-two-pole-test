@@ -1,4 +1,8 @@
-import Liu.CrossClaim
+module
+
+public import Liu.CrossClaim
+
+@[expose] public section
 
 noncomputable section
 open Set Real

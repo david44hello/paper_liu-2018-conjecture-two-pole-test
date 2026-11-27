@@ -1,4 +1,8 @@
-import Liu.ClusterGeometry
+module
+
+public import Liu.ClusterGeometry
+
+@[expose] public section
 
 noncomputable section
 open Set Real MeasureTheory Metric

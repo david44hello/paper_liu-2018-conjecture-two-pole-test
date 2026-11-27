@@ -1,10 +1,14 @@
-import Liu.CoverControl
-import Liu.MainImplications
-import Liu.BetaLedger
-import Liu.Bergman
-import Liu.CrossSource
-import Liu.GreenKernel
-import Liu.Prefix
+module
+
+public import Liu.CoverControl
+public import Liu.MainImplications
+public import Liu.BetaLedger
+public import Liu.Bergman
+public import Liu.CrossSource
+public import Liu.GreenKernel
+public import Liu.Prefix
+
+@[expose] public section
 
 #print axioms Liu.Certificate.cover
 #print axioms Liu.Certificate.corner_seam

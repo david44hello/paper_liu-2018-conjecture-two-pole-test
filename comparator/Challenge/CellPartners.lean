@@ -1,4 +1,8 @@
-import Challenge.InterpolationCharts
+module
+
+public import Challenge.InterpolationCharts
+
+@[expose] public section
 
 /- Frozen input: Liu/CellPartners.lean -/
 noncomputable section

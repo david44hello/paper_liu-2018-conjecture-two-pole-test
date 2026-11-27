@@ -1,10 +1,16 @@
-import Challenge.BetaLedger
-import Mathlib
+module
+
+public import Challenge.BetaLedger
+public import Mathlib
+
+@[expose] public section
 
 /- Frozen input: Liu/Gluing.lean -/
 noncomputable section
 open MeasureTheory Set Filter
 namespace Liu.Certificate
+open scoped Liu
+
 
 def boxBounds : Prop :=
   ∀ b ∈ boxes, ∀ s γ : ℝ, b.contains s γ → γ ≤ Real.pi/2 →

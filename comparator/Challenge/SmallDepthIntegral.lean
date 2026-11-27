@@ -1,4 +1,8 @@
-import Challenge.SmallDepthFlux
+module
+
+public import Challenge.SmallDepthFlux
+
+@[expose] public section
 
 /- Frozen input: Liu/SmallDepthIntegral.lean -/
 noncomputable section

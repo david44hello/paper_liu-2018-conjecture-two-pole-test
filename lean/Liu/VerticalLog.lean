@@ -1,4 +1,8 @@
-import Liu.PickRationalLog
+module
+
+public import Liu.PickRationalLog
+
+@[expose] public section
 
 noncomputable section
 open Complex Real Set

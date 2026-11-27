@@ -1,13 +1,17 @@
-import Challenge.QuotientDomain
-import Challenge.PickSums
-import Challenge.RadialEnergy
-import Mathlib.MeasureTheory.Function.LpSpace.DomAct.Continuous
-import Mathlib.Analysis.Convex.Integral
-import Mathlib.Analysis.Convex.Mul
-import Mathlib.MeasureTheory.Integral.Prod
-import Challenge.WeakPrimitive
-import Mathlib.Analysis.Calculus.ContDiff.Convolution
-import Mathlib.Analysis.Calculus.BumpFunction.Convolution
+module
+
+public import Challenge.QuotientDomain
+public import Challenge.PickSums
+public import Challenge.RadialEnergy
+public import Mathlib.MeasureTheory.Function.LpSpace.DomAct.Continuous
+public import Mathlib.Analysis.Convex.Integral
+public import Mathlib.Analysis.Convex.Mul
+public import Mathlib.MeasureTheory.Integral.Prod
+public import Challenge.WeakPrimitive
+public import Mathlib.Analysis.Calculus.ContDiff.Convolution
+public import Mathlib.Analysis.Calculus.BumpFunction.Convolution
+
+@[expose] public section
 
 /- Frozen input: Liu/WeakBergman.lean -/
 noncomputable section

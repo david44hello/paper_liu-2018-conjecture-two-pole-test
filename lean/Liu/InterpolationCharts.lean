@@ -1,6 +1,10 @@
-import Liu.SeparatedDomain
-import Liu.ReciprocalDisc
-import Liu.ChebyshevAlias
+module
+
+public import Liu.SeparatedDomain
+public import Liu.ReciprocalDisc
+public import Liu.ChebyshevAlias
+
+@[expose] public section
 
 noncomputable section
 open Real Set

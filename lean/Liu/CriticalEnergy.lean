@@ -1,4 +1,8 @@
-import Liu.Denominator
+module
+
+public import Liu.Denominator
+
+@[expose] public section
 
 noncomputable section
 open Filter Real

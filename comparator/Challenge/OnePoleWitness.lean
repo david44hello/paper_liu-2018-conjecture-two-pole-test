@@ -1,6 +1,10 @@
-import Challenge.WitnessClaim
-import Challenge.SinglePoleEvaluation
-import Mathlib.Analysis.Complex.RemovableSingularity
+module
+
+public import Challenge.WitnessClaim
+public import Challenge.SinglePoleEvaluation
+public import Mathlib.Analysis.Complex.RemovableSingularity
+
+@[expose] public section
 
 /- Frozen input: Liu/OnePoleWitness.lean -/
 noncomputable section

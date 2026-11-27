@@ -1,4 +1,8 @@
-import Liu.GreenKernel
+module
+
+public import Liu.GreenKernel
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory

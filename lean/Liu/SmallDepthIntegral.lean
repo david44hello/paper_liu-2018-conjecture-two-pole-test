@@ -1,4 +1,8 @@
-import Liu.SmallDepthFlux
+module
+
+public import Liu.SmallDepthFlux
+
+@[expose] public section
 
 noncomputable section
 open Set Real MeasureTheory

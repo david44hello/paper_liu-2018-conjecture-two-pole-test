@@ -1,4 +1,8 @@
-import Liu.Normalize
+module
+
+public import Liu.Normalize
+
+@[expose] public section
 
 noncomputable section
 open Set

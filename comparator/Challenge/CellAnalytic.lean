@@ -1,6 +1,10 @@
-import Challenge.TopCollision
-import Challenge.ChebyshevEllipse
-import Challenge.CellPartners
+module
+
+public import Challenge.TopCollision
+public import Challenge.ChebyshevEllipse
+public import Challenge.CellPartners
+
+@[expose] public section
 
 /- Frozen input: Liu/CellAnalytic.lean -/
 noncomputable section

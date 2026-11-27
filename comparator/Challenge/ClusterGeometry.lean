@@ -1,5 +1,9 @@
-import Challenge.OnePoleBounds
-import Challenge.Blend
+module
+
+public import Challenge.OnePoleBounds
+public import Challenge.Blend
+
+@[expose] public section
 
 /- Frozen input: Liu/ClusterGeometry.lean -/
 noncomputable section

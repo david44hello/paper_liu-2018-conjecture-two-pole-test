@@ -1,14 +1,18 @@
-import Liu.AngularDeficit
-import Mathlib.Analysis.SpecialFunctions.Trigonometric.Deriv
+module
+
+public import Liu.AngularDeficit
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Deriv
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real
 open scoped ComplexConjugate
 namespace Liu
 
-private def amplitude (t : ℝ) : ℂ := ((1+t:ℝ):ℂ)/(2*Complex.I*(t:ℂ))
-private def correction (t : ℝ) : ℂ := (π:ℂ)*Complex.exp ((t*π:ℝ)*Complex.I)/(sin (t*π):ℝ)
-private def phase (t : ℝ) (x : ℂ) : ℂ := Complex.exp ((t:ℂ)*x*Complex.I)
+def amplitude (t : ℝ) : ℂ := ((1+t:ℝ):ℂ)/(2*Complex.I*(t:ℂ))
+def correction (t : ℝ) : ℂ := (π:ℂ)*Complex.exp ((t*π:ℝ)*Complex.I)/(sin (t*π):ℝ)
+def phase (t : ℝ) (x : ℂ) : ℂ := Complex.exp ((t:ℂ)*x*Complex.I)
 
 def angularSolution (t : ℝ) (x : ℂ) : ℂ :=
   if t=0 then x*(x-(π:ℂ))/2 else amplitude t*(x*phase t x-correction t*Complex.sin ((t:ℂ)*x))

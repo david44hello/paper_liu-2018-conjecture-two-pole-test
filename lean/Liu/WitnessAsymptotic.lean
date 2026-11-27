@@ -1,6 +1,10 @@
-import Liu.FarFieldClaim
-import Liu.CanonicalField
-import Liu.Orthogonality
+module
+
+public import Liu.FarFieldClaim
+public import Liu.CanonicalField
+public import Liu.Orthogonality
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real Filter

@@ -1,4 +1,8 @@
-import Liu.Cover
+module
+
+public import Liu.Cover
+
+@[expose] public section
 
 namespace Liu.Certificate
 

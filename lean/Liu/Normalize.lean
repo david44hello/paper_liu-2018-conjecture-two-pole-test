@@ -1,4 +1,8 @@
-import Liu.MainImplications
+module
+
+public import Liu.MainImplications
+
+@[expose] public section
 
 noncomputable section
 open scoped ComplexConjugate

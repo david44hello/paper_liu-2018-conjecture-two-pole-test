@@ -1,5 +1,9 @@
-import Liu.SeparatedDomain
-import Mathlib.Analysis.Analytic.IsolatedZeros
+module
+
+public import Liu.SeparatedDomain
+public import Mathlib.Analysis.Analytic.IsolatedZeros
+
+@[expose] public section
 
 noncomputable section
 open Set Filter

@@ -1,6 +1,10 @@
-import Challenge.SeparatedSource
-import Challenge.ReciprocalDisc
-import Challenge.ChebyshevAlias
+module
+
+public import Challenge.SeparatedSource
+public import Challenge.ReciprocalDisc
+public import Challenge.ChebyshevAlias
+
+@[expose] public section
 
 /- Frozen input: Liu/InterpolationCharts.lean -/
 noncomputable section

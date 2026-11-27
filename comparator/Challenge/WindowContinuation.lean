@@ -1,4 +1,8 @@
-import Challenge.AdmissibleContour
+module
+
+public import Challenge.AdmissibleContour
+
+@[expose] public section
 
 /- Frozen input: Liu/WindowContinuation.lean -/
 noncomputable section

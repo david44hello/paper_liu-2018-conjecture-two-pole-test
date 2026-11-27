@@ -1,4 +1,8 @@
-import Liu.DirichletGradient
+module
+
+public import Liu.DirichletGradient
+
+@[expose] public section
 
 noncomputable section
 open Set Metric Filter Real Complex MeasureTheory

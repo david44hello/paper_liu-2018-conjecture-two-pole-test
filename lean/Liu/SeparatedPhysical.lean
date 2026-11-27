@@ -1,4 +1,8 @@
-import Liu.SeparatedFlux
+module
+
+public import Liu.SeparatedFlux
+
+@[expose] public section
 
 noncomputable section
 open Set Real MeasureTheory

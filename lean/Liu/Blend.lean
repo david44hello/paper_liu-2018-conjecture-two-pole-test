@@ -1,4 +1,8 @@
-import Liu.Witness
+module
+
+public import Liu.Witness
+
+@[expose] public section
 
 noncomputable section
 open Real Complex

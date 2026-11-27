@@ -1,6 +1,10 @@
-import Liu.FinitePart
-import Mathlib.Analysis.SpecialFunctions.PolarCoord
-import Mathlib.Analysis.SpecialFunctions.ImproperIntegrals
+module
+
+public import Liu.FinitePart
+public import Mathlib.Analysis.SpecialFunctions.PolarCoord
+public import Mathlib.Analysis.SpecialFunctions.ImproperIntegrals
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real

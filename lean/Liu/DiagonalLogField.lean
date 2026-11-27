@@ -1,4 +1,8 @@
-import Liu.RationalLogTerm
+module
+
+public import Liu.RationalLogTerm
+
+@[expose] public section
 
 noncomputable section
 open Set Real MeasureTheory

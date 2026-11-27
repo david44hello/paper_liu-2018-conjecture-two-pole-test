@@ -1,4 +1,8 @@
-import Liu.Mass
+module
+
+public import Liu.Mass
+
+@[expose] public section
 
 noncomputable section
 open MeasureTheory Set Real

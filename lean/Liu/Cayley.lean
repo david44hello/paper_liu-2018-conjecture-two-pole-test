@@ -1,4 +1,8 @@
-import Liu.BergmanEvaluation
+module
+
+public import Liu.BergmanEvaluation
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Metric

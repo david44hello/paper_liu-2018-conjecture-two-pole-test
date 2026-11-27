@@ -1,5 +1,9 @@
-import Challenge.Gluing
-import Challenge.Mass
+module
+
+public import Challenge.Gluing
+public import Challenge.Mass
+
+@[expose] public section
 
 /- Frozen input: Liu/Anchor.lean -/
 noncomputable section

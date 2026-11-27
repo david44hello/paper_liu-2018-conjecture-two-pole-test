@@ -1,4 +1,8 @@
-import Liu.RayAngles
+module
+
+public import Liu.RayAngles
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real

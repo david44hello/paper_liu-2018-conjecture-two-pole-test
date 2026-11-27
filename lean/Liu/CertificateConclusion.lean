@@ -1,9 +1,15 @@
-import Liu.MixedEdgeFlux
+module
+
+public import Liu.MixedEdgeFlux
+
+@[expose] public section
 
 noncomputable section
 open Set Real MeasureTheory Filter
 open scoped Topology
 namespace Liu
+open scoped Liu
+
 
 /-- The analytic bound on the prefix integral for each of the 168 boxes. -/
 theorem certified_prefix_integral : Certificate.prefixProperty :=

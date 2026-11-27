@@ -1,4 +1,8 @@
-import Liu.AngularExpansion
+module
+
+public import Liu.AngularExpansion
+
+@[expose] public section
 
 noncomputable section
 open Set Filter Real

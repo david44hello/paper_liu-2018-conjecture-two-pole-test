@@ -1,4 +1,8 @@
-import Liu.AdmissibleContour
+module
+
+public import Liu.AdmissibleContour
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Filter Metric Real Complex

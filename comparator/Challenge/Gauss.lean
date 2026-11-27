@@ -1,6 +1,10 @@
-import Challenge.Pick
-import Mathlib.Analysis.Analytic.Binomial
-import Mathlib.Analysis.SpecialFunctions.Gamma.Beta
+module
+
+public import Challenge.Pick
+public import Mathlib.Analysis.Analytic.Binomial
+public import Mathlib.Analysis.SpecialFunctions.Gamma.Beta
+
+@[expose] public section
 
 /- Frozen input: Liu/Gauss.lean -/
 noncomputable section

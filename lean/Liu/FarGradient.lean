@@ -1,5 +1,9 @@
-import Liu.RadialField
-import Liu.AngularPotential
+module
+
+public import Liu.RadialField
+public import Liu.AngularPotential
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real

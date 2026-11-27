@@ -1,5 +1,9 @@
-import Liu.RadialField
-import Liu.TwoPoleReduction
+module
+
+public import Liu.RadialField
+public import Liu.TwoPoleReduction
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Filter Real

@@ -1,5 +1,9 @@
-import Liu.SmallFirstOrder
-import Liu.DepthTraceContinuity
+module
+
+public import Liu.SmallFirstOrder
+public import Liu.DepthTraceContinuity
+
+@[expose] public section
 
 noncomputable section
 open Set Real MeasureTheory Filter Metric

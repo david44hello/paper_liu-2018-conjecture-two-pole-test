@@ -1,4 +1,8 @@
-import Liu.ContourAnalytic
+module
+
+public import Liu.ContourAnalytic
+
+@[expose] public section
 
 noncomputable section
 open Set Filter Real Complex MeasureTheory

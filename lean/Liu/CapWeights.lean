@@ -1,5 +1,9 @@
-import Liu.TrigammaSeries
-import Liu.EulerSum
+module
+
+public import Liu.TrigammaSeries
+public import Liu.EulerSum
+
+@[expose] public section
 
 noncomputable section
 open Real Set Filter Finset

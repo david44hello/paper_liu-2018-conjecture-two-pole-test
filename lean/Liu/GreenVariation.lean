@@ -1,4 +1,8 @@
-import Liu.FrozenGreen
+module
+
+public import Liu.FrozenGreen
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real

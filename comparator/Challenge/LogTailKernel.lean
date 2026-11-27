@@ -1,4 +1,8 @@
-import Challenge.VerticalLog
+module
+
+public import Challenge.VerticalLog
+
+@[expose] public section
 
 /- Frozen input: Liu/LogTailKernel.lean -/
 noncomputable section

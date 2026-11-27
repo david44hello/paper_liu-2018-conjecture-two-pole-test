@@ -1,5 +1,9 @@
-import Liu.OrthogonalBounds
-import Liu.RectangleGreen
+module
+
+public import Liu.OrthogonalBounds
+public import Liu.RectangleGreen
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real Filter

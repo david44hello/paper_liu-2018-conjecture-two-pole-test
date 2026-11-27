@@ -1,10 +1,16 @@
-import Challenge.Pick
+module
+
+public import Challenge.Pick
+
+@[expose] public section
 
 /- Frozen input: Liu/Bergman.lean -/
 noncomputable section
 open MeasureTheory Set Filter
 open scoped Topology
 namespace Liu
+open scoped Liu
+
 
 def upperArea : Measure ℂ := area.restrict upper
 

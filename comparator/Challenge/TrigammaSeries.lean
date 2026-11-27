@@ -1,6 +1,10 @@
-import Challenge.Gauss
-import Mathlib.Analysis.Calculus.SmoothSeries
-import Mathlib.Analysis.SpecialFunctions.Gamma.BohrMollerup
+module
+
+public import Challenge.Gauss
+public import Mathlib.Analysis.Calculus.SmoothSeries
+public import Mathlib.Analysis.SpecialFunctions.Gamma.BohrMollerup
+
+@[expose] public section
 
 /- Frozen input: Liu/TrigammaSeries.lean -/
 noncomputable section

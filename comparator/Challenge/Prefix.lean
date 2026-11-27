@@ -1,4 +1,8 @@
-import Challenge.Gluing
+module
+
+public import Challenge.Gluing
+
+@[expose] public section
 
 /- Frozen input: Liu/Prefix.lean -/
 noncomputable section

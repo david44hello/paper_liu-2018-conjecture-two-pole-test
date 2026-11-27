@@ -1,5 +1,9 @@
-import Liu.IsolatedEnergy
-import Liu.IsolatedBounds
+module
+
+public import Liu.IsolatedEnergy
+public import Liu.IsolatedBounds
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real

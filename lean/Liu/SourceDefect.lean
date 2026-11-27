@@ -1,4 +1,8 @@
-import Liu.LogSource
+module
+
+public import Liu.LogSource
+
+@[expose] public section
 
 noncomputable section
 open scoped ComplexConjugate

@@ -1,4 +1,8 @@
-import Challenge.AngularDeficit
+module
+
+public import Challenge.AngularDeficit
+
+@[expose] public section
 
 /- Frozen input: Liu/DeficitRemainder.lean -/
 noncomputable section

@@ -1,5 +1,9 @@
-import Liu.DepthFieldComparison
-import Liu.ShiftCutoff
+module
+
+public import Liu.DepthFieldComparison
+public import Liu.ShiftCutoff
+
+@[expose] public section
 
 noncomputable section
 open Set Real MeasureTheory Filter Metric

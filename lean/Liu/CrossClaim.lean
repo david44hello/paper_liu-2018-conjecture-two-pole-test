@@ -1,5 +1,9 @@
-import Liu.CrossSource
-import Liu.Prefix
+module
+
+public import Liu.CrossSource
+public import Liu.Prefix
+
+@[expose] public section
 
 noncomputable section
 open scoped ComplexConjugate

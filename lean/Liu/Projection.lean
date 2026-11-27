@@ -1,4 +1,8 @@
-import Liu.QuotientDomain
+module
+
+public import Liu.QuotientDomain
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory

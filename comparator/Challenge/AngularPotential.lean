@@ -1,11 +1,15 @@
-import Challenge.RadialEnergy
-import Challenge.Pick
-import Challenge.PickSums
-import Challenge.Projection
-import Mathlib.Analysis.SpecialFunctions.Complex.LogDeriv
-import Challenge.FieldBound
-import Mathlib.Analysis.SpecialFunctions.Complex.LogBounds
-import Challenge.BoundaryField
+module
+
+public import Challenge.RadialEnergy
+public import Challenge.Pick
+public import Challenge.PickSums
+public import Challenge.Projection
+public import Mathlib.Analysis.SpecialFunctions.Complex.LogDeriv
+public import Challenge.FieldBound
+public import Mathlib.Analysis.SpecialFunctions.Complex.LogBounds
+public import Challenge.BoundaryField
+
+@[expose] public section
 
 /- Frozen input: Liu/AngularPotential.lean -/
 noncomputable section

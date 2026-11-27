@@ -1,6 +1,10 @@
-import Challenge.QuotientDomain
-import Challenge.PickSums
-import Challenge.RadialEnergy
+module
+
+public import Challenge.QuotientDomain
+public import Challenge.PickSums
+public import Challenge.RadialEnergy
+
+@[expose] public section
 
 /- Frozen input: Liu/Witness.lean -/
 noncomputable section

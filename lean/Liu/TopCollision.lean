@@ -1,5 +1,9 @@
-import Liu.CoalescentFlux
-import Liu.TopInterpolationChart
+module
+
+public import Liu.CoalescentFlux
+public import Liu.TopInterpolationChart
+
+@[expose] public section
 
 noncomputable section
 open Set Real MeasureTheory Filter

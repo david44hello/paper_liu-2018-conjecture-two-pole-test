@@ -1,5 +1,9 @@
-import Liu.CitedInterpolation
-import Liu.SlopeFormula
+module
+
+public import Liu.CitedInterpolation
+public import Liu.SlopeFormula
+
+@[expose] public section
 
 noncomputable section
 open Set Filter Real Complex MeasureTheory

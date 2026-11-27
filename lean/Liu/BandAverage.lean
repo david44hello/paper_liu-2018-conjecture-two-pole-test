@@ -1,5 +1,9 @@
-import Liu.BandSlices
-import Liu.FieldIncrement
+module
+
+public import Liu.BandSlices
+public import Liu.FieldIncrement
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real Filter Metric

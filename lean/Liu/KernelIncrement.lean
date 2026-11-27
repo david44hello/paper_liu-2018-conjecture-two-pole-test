@@ -1,4 +1,8 @@
-import Liu.GreenEstimates
+module
+
+public import Liu.GreenEstimates
+
+@[expose] public section
 
 noncomputable section
 open Set Real MeasureTheory Metric

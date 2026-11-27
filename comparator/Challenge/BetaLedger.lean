@@ -1,4 +1,8 @@
-import Challenge.Beta
+module
+
+public import Challenge.Beta
+
+@[expose] public section
 
 /- Frozen input: Liu/BetaLedger.lean -/
 noncomputable section

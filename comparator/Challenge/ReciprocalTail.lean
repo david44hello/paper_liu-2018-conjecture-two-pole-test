@@ -1,4 +1,8 @@
-import Challenge.Anchor
+module
+
+public import Challenge.Anchor
+
+@[expose] public section
 
 /- Frozen input: Liu/ReciprocalTail.lean -/
 noncomputable section

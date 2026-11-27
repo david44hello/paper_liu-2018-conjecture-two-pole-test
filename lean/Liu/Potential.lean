@@ -1,6 +1,10 @@
-import Liu.GreenEstimates
-import Liu.Source
-import Liu.Projection
+module
+
+public import Liu.GreenEstimates
+public import Liu.Source
+public import Liu.Projection
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory

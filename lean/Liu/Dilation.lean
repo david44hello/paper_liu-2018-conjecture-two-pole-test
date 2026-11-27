@@ -1,4 +1,8 @@
-import Liu.Symmetry
+module
+
+public import Liu.Symmetry
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Filter

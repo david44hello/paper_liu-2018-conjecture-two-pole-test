@@ -1,6 +1,10 @@
-import Liu.ContourFTC
-import Liu.SlitHolomorphic
-import Liu.ContourMajorant
+module
+
+public import Liu.ContourFTC
+public import Liu.SlitHolomorphic
+public import Liu.ContourMajorant
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real Complex Filter Metric

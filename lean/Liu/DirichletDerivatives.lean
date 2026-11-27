@@ -1,7 +1,11 @@
-import Liu.WeakBergman
-import Liu.WitnessClaim
-import Mathlib.Analysis.InnerProductSpace.Laplacian
-import Mathlib.Analysis.Complex.Convex
+module
+
+public import Liu.WeakBergman
+public import Liu.WitnessClaim
+public import Mathlib.Analysis.InnerProductSpace.Laplacian
+public import Mathlib.Analysis.Complex.Convex
+
+@[expose] public section
 
 noncomputable section
 open Set Filter MeasureTheory Real Complex

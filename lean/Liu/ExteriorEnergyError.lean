@@ -1,6 +1,10 @@
-import Liu.PhysicalExterior
-import Liu.ModelEnergy
-import Liu.CompactFrozenEnergy
+module
+
+public import Liu.PhysicalExterior
+public import Liu.ModelEnergy
+public import Liu.CompactFrozenEnergy
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real Filter Metric

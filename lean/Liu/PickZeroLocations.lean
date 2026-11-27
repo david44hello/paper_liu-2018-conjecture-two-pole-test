@@ -1,4 +1,8 @@
-import Liu.PickNumerator
+module
+
+public import Liu.PickNumerator
+
+@[expose] public section
 
 noncomputable section
 open Set Polynomial

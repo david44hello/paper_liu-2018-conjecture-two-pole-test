@@ -1,5 +1,9 @@
-import Liu.ReciprocalFlux
-import Liu.ReciprocalTail
+module
+
+public import Liu.ReciprocalFlux
+public import Liu.ReciprocalTail
+
+@[expose] public section
 
 noncomputable section
 open Set Real MeasureTheory Filter Metric

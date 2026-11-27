@@ -1,24 +1,28 @@
-import Challenge.AngularDeficit
-import Mathlib.Analysis.SpecialFunctions.Trigonometric.Deriv
-import Mathlib.Analysis.Calculus.LocalExtr.Rolle
-import Mathlib.Analysis.SpecialFunctions.SmoothTransition
-import Challenge.AngularPotential
-import Challenge.LogSource
-import Challenge.SupercriticalEnergy
-import Challenge.ProjectionKernel
-import Challenge.QuotientDomain
-import Challenge.PickSums
-import Challenge.RadialEnergy
-import Challenge.FinitePart
-import Challenge.Pick
-import Challenge.Projection
-import Challenge.Reproducing
-import Challenge.FarFieldClaim
-import Challenge.CanonicalField
-import Challenge.Orthogonality
-import Challenge.FieldComparison
-import Challenge.WitnessClaim
-import Challenge.FinitePartLaws
+module
+
+public import Challenge.AngularDeficit
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Deriv
+public import Mathlib.Analysis.Calculus.LocalExtr.Rolle
+public import Mathlib.Analysis.SpecialFunctions.SmoothTransition
+public import Challenge.AngularPotential
+public import Challenge.LogSource
+public import Challenge.SupercriticalEnergy
+public import Challenge.ProjectionKernel
+public import Challenge.QuotientDomain
+public import Challenge.PickSums
+public import Challenge.RadialEnergy
+public import Challenge.FinitePart
+public import Challenge.Pick
+public import Challenge.Projection
+public import Challenge.Reproducing
+public import Challenge.FarFieldClaim
+public import Challenge.CanonicalField
+public import Challenge.Orthogonality
+public import Challenge.FieldComparison
+public import Challenge.WitnessClaim
+public import Challenge.FinitePartLaws
+
+@[expose] public section
 
 /- Frozen input: Liu/SlopeFormula.lean -/
 noncomputable section

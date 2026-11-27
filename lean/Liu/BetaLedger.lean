@@ -1,4 +1,8 @@
-import Liu.Beta
+module
+
+public import Liu.Beta
+
+@[expose] public section
 
 namespace Liu.Certificate
 

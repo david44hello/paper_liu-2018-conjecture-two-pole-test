@@ -1,4 +1,8 @@
-import Liu.ModelBounds
+module
+
+public import Liu.ModelBounds
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real Filter Metric

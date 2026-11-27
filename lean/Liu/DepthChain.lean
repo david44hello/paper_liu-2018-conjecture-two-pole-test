@@ -1,4 +1,8 @@
-import Liu.ReciprocalTail
+module
+
+public import Liu.ReciprocalTail
+
+@[expose] public section
 
 noncomputable section
 open MeasureTheory Set Filter

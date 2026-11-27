@@ -1,4 +1,8 @@
-import Liu.FarFieldClaim
+module
+
+public import Liu.FarFieldClaim
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real Metric

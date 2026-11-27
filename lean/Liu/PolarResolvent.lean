@@ -1,5 +1,9 @@
-import Liu.PolePolarization
-import Liu.OnePoleBounds
+module
+
+public import Liu.PolePolarization
+public import Liu.OnePoleBounds
+
+@[expose] public section
 
 noncomputable section
 open Set Real MeasureTheory Filter

@@ -1,6 +1,10 @@
-import Challenge.CapWeights
-import Challenge.SinglePoleReduction
-import Challenge.SlopeFormula
+module
+
+public import Challenge.CapWeights
+public import Challenge.SinglePoleReduction
+public import Challenge.SlopeFormula
+
+@[expose] public section
 
 /- Frozen input: Liu/LiuGammaPower.lean -/
 noncomputable section

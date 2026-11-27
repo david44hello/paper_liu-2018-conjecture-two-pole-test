@@ -1,6 +1,10 @@
-import Liu.ClusterDensity
-import Liu.Anchor
-import Liu.EdgeTrace
+module
+
+public import Liu.ClusterDensity
+public import Liu.Anchor
+public import Liu.EdgeTrace
+
+@[expose] public section
 
 noncomputable section
 open Set Real Filter MeasureTheory Metric

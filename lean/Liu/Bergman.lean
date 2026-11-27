@@ -1,9 +1,15 @@
-import Liu.Pick
+module
+
+public import Liu.Pick
+
+@[expose] public section
 
 noncomputable section
 open MeasureTheory Set Filter
 open scoped Topology
 namespace Liu
+open scoped Liu
+
 
 def upperArea : Measure ℂ := area.restrict upper
 abbrev PlaneL2 := Lp ℂ 2 upperArea

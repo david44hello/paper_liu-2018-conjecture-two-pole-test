@@ -1,5 +1,9 @@
-import Liu.KernelWeight
-import Liu.GreenBoundary
+module
+
+public import Liu.KernelWeight
+public import Liu.GreenBoundary
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real

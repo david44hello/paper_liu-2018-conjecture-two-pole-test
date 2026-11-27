@@ -1,5 +1,9 @@
-import Challenge.BlendExpansion
-import Challenge.RadialEnergy
+module
+
+public import Challenge.BlendExpansion
+public import Challenge.RadialEnergy
+
+@[expose] public section
 
 /- Frozen input: Liu/SmallRemainder.lean -/
 noncomputable section

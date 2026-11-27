@@ -1,5 +1,9 @@
-import Liu.CutDomain
-import Liu.PairedFlux
+module
+
+public import Liu.CutDomain
+public import Liu.PairedFlux
+
+@[expose] public section
 
 noncomputable section
 open Set Filter Complex

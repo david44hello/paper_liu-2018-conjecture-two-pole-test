@@ -1,4 +1,8 @@
-import Liu.InterpolationCharts
+module
+
+public import Liu.InterpolationCharts
+
+@[expose] public section
 
 noncomputable section
 open Set Real

@@ -1,5 +1,9 @@
-import Liu.CanonicalField
-import Liu.GreenPairing
+module
+
+public import Liu.CanonicalField
+public import Liu.GreenPairing
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real Filter

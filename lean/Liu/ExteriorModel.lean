@@ -1,6 +1,10 @@
-import Liu.CutoffProfile
-import Liu.PolarDifferentiation
-import Liu.ExteriorSource
+module
+
+public import Liu.CutoffProfile
+public import Liu.PolarDifferentiation
+public import Liu.ExteriorSource
+
+@[expose] public section
 
 noncomputable section
 open Set Real Filter

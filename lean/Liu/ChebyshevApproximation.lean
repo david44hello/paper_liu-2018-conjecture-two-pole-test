@@ -1,4 +1,8 @@
-import Liu.ChebyshevSeries
+module
+
+public import Liu.ChebyshevSeries
+
+@[expose] public section
 
 noncomputable section
 open Real Set Polynomial Polynomial.Chebyshev

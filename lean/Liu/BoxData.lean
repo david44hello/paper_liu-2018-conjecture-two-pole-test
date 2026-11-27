@@ -1,4 +1,8 @@
-import Liu.BoxTypes
+module
+
+public import Liu.BoxTypes
+
+@[expose] public section
 
 /-! Parameter rows transcribed from the tagged 96-bit certificate logs. -/
 namespace Liu.Certificate

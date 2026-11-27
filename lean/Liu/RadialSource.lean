@@ -1,5 +1,9 @@
-import Liu.FrozenSource
-import Liu.EnergyEstimate
+module
+
+public import Liu.FrozenSource
+public import Liu.EnergyEstimate
+
+@[expose] public section
 
 noncomputable section
 open Set Real

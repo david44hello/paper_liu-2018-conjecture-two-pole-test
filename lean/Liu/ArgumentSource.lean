@@ -1,4 +1,8 @@
-import Liu.RadialSource
+module
+
+public import Liu.RadialSource
+
+@[expose] public section
 
 noncomputable section
 open scoped ComplexConjugate

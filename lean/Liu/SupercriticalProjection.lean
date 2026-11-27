@@ -1,6 +1,10 @@
-import Liu.SupercriticalEnergy
-import Liu.ProjectionKernel
-import Liu.Denominator
+module
+
+public import Liu.SupercriticalEnergy
+public import Liu.ProjectionKernel
+public import Liu.Denominator
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real

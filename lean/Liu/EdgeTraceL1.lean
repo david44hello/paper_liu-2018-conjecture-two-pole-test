@@ -1,4 +1,8 @@
-import Liu.EdgeRealBounds
+module
+
+public import Liu.EdgeRealBounds
+
+@[expose] public section
 
 noncomputable section
 open Set Real MeasureTheory

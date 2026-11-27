@@ -1,7 +1,11 @@
-import Challenge.LogTailEstimate
-import Challenge.TailPhysical
-import Mathlib
-import Challenge.ReciprocalModel
+module
+
+public import Challenge.LogTailEstimate
+public import Challenge.TailPhysical
+public import Mathlib
+public import Challenge.ReciprocalModel
+
+@[expose] public section
 
 /- Frozen input: Liu/PairedFlux.lean -/
 noncomputable section

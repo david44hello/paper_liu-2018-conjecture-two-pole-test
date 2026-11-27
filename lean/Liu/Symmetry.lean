@@ -1,5 +1,9 @@
-import Liu.FinitePart
-import Liu.GreenBoundary
+module
+
+public import Liu.FinitePart
+public import Liu.GreenBoundary
+
+@[expose] public section
 
 noncomputable section
 open MeasureTheory Set Filter

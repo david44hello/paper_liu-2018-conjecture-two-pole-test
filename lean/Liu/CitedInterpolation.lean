@@ -1,4 +1,8 @@
-import Liu.TensorInterpolation
+module
+
+public import Liu.TensorInterpolation
+
+@[expose] public section
 
 noncomputable section
 open Set Real Polynomial

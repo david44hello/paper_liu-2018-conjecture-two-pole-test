@@ -1,6 +1,10 @@
-import Challenge.ClusterGeometry
-import Challenge.Anchor
-import Challenge.EdgeTrace
+module
+
+public import Challenge.ClusterGeometry
+public import Challenge.Anchor
+public import Challenge.EdgeTrace
+
+@[expose] public section
 
 /- Frozen input: Liu/MergedPoles.lean -/
 noncomputable section

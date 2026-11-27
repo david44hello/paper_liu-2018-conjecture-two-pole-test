@@ -1,5 +1,9 @@
-import Liu.WitnessAsymptotic
-import Liu.WitnessEquality
+module
+
+public import Liu.WitnessAsymptotic
+public import Liu.WitnessEquality
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real Filter

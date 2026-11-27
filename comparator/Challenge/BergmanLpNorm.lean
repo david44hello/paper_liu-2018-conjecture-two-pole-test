@@ -1,5 +1,9 @@
-import Challenge.ProjectionKernel
-import Challenge.LiuGammaPower
+module
+
+public import Challenge.ProjectionKernel
+public import Challenge.LiuGammaPower
+
+@[expose] public section
 
 /- Frozen input: Liu/BergmanLpNorm.lean -/
 noncomputable section

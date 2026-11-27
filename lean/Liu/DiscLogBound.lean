@@ -1,4 +1,8 @@
-import Liu.CapCayley
+module
+
+public import Liu.CapCayley
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real Metric

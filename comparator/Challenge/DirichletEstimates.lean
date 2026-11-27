@@ -1,8 +1,12 @@
-import Challenge.DirichletDerivatives
-import Challenge.FieldComparison
-import Mathlib.Analysis.InnerProductSpace.Harmonic.Constructions
-import Challenge.FieldBound
-import Mathlib.Analysis.SpecialFunctions.Complex.LogBounds
+module
+
+public import Challenge.DirichletDerivatives
+public import Challenge.FieldComparison
+public import Mathlib.Analysis.InnerProductSpace.Harmonic.Constructions
+public import Challenge.FieldBound
+public import Mathlib.Analysis.SpecialFunctions.Complex.LogBounds
+
+@[expose] public section
 
 /- Frozen input: Liu/DirichletEstimates.lean -/
 noncomputable section

@@ -1,4 +1,8 @@
-import Liu.ShiftCutoff
+module
+
+public import Liu.ShiftCutoff
+
+@[expose] public section
 
 noncomputable section
 open Set Filter

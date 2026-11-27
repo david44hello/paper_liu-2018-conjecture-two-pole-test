@@ -1,4 +1,8 @@
-import Liu.Integrability
+module
+
+public import Liu.Integrability
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory

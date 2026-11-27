@@ -1,4 +1,8 @@
-import Liu.DirichletLocalEstimate
+module
+
+public import Liu.DirichletLocalEstimate
+
+@[expose] public section
 
 noncomputable section
 open Set Filter MeasureTheory Real Complex Metric InnerProductSpace

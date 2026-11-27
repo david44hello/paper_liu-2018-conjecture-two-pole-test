@@ -1,5 +1,9 @@
-import Liu.SingleTrace
-import Liu.SingleFluxConstant
+module
+
+public import Liu.SingleTrace
+public import Liu.SingleFluxConstant
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real

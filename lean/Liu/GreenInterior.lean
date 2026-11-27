@@ -1,4 +1,8 @@
-import Liu.GreenDifferential
+module
+
+public import Liu.GreenDifferential
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real Filter

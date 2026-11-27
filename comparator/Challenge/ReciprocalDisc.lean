@@ -1,5 +1,9 @@
-import Challenge.ReciprocalModel
-import Challenge.ReciprocalTail
+module
+
+public import Challenge.ReciprocalModel
+public import Challenge.ReciprocalTail
+
+@[expose] public section
 
 /- Frozen input: Liu/ReciprocalDisc.lean -/
 noncomputable section

@@ -1,4 +1,8 @@
-import Challenge.QuotientDomain
+module
+
+public import Challenge.QuotientDomain
+
+@[expose] public section
 
 /- Frozen input: Liu/Projection.lean -/
 noncomputable section

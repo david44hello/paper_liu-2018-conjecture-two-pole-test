@@ -1,4 +1,8 @@
-import Liu.DirichletDerivatives
+module
+
+public import Liu.DirichletDerivatives
+
+@[expose] public section
 
 noncomputable section
 open Set Filter MeasureTheory Real Complex

@@ -1,5 +1,9 @@
-import Liu.LogRay
-import Liu.PolarRays
+module
+
+public import Liu.LogRay
+public import Liu.PolarRays
+
+@[expose] public section
 
 noncomputable section
 open Set Real

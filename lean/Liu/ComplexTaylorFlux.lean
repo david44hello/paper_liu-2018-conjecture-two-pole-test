@@ -1,4 +1,8 @@
-import Liu.CentredDensity
+module
+
+public import Liu.CentredDensity
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Filter Complex

@@ -1,4 +1,8 @@
-import Liu.CapExpansion
+module
+
+public import Liu.CapExpansion
+
+@[expose] public section
 
 noncomputable section
 open Real Set Filter

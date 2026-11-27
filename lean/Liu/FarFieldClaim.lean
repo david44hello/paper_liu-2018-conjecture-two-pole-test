@@ -1,5 +1,9 @@
-import Liu.FarGradient
-import Liu.FinitePartLaws
+module
+
+public import Liu.FarGradient
+public import Liu.FinitePartLaws
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real Filter

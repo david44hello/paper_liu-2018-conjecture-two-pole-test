@@ -1,4 +1,8 @@
-import Liu.Potential
+module
+
+public import Liu.Potential
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real Filter

@@ -1,5 +1,9 @@
-import Liu.LogTailEstimate
-import Liu.TailPhysical
+module
+
+public import Liu.LogTailEstimate
+public import Liu.TailPhysical
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Filter Real Complex

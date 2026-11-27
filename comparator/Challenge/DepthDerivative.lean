@@ -1,14 +1,18 @@
-import Challenge.SmallFirstOrder
-import Challenge.DepthTraceContinuity
-import Challenge.Reflection
-import Challenge.QuotientDomain
-import Challenge.PickSums
-import Challenge.RadialEnergy
-import Mathlib.MeasureTheory.Measure.Lebesgue.VolumeOfBalls
-import Challenge.Pick
-import Challenge.CauchyTransform
-import Challenge.DepthFluxContinuity
-import Challenge.SmallMassDeficit
+module
+
+public import Challenge.SmallFirstOrder
+public import Challenge.DepthTraceContinuity
+public import Challenge.Reflection
+public import Challenge.QuotientDomain
+public import Challenge.PickSums
+public import Challenge.RadialEnergy
+public import Mathlib.MeasureTheory.Measure.Lebesgue.VolumeOfBalls
+public import Challenge.Pick
+public import Challenge.CauchyTransform
+public import Challenge.DepthFluxContinuity
+public import Challenge.SmallMassDeficit
+
+@[expose] public section
 
 /- Frozen input: Liu/DepthDerivative.lean -/
 noncomputable section

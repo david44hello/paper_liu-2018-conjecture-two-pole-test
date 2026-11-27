@@ -1,5 +1,9 @@
-import Liu.Denominator
-import Liu.Source
+module
+
+public import Liu.Denominator
+public import Liu.Source
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Filter

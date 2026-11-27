@@ -1,13 +1,17 @@
-import Challenge.CanonicalRegularity
-import Challenge.CanonicalField
-import Challenge.FinitePart
-import Challenge.Pick
-import Challenge.PickSums
-import Challenge.Projection
-import Challenge.Reproducing
-import Challenge.LogSource
-import Challenge.FarFieldClaim
-import Mathlib.Analysis.Complex.CauchyIntegral
+module
+
+public import Challenge.CanonicalRegularity
+public import Challenge.CanonicalField
+public import Challenge.FinitePart
+public import Challenge.Pick
+public import Challenge.PickSums
+public import Challenge.Projection
+public import Challenge.Reproducing
+public import Challenge.LogSource
+public import Challenge.FarFieldClaim
+public import Mathlib.Analysis.Complex.CauchyIntegral
+
+@[expose] public section
 
 /- Frozen input: Liu/SupercriticalEnergy.lean -/
 noncomputable section

@@ -1,5 +1,9 @@
-import Liu.FarFieldClaim
-import Mathlib.Analysis.Complex.CauchyIntegral
+module
+
+public import Liu.FarFieldClaim
+public import Mathlib.Analysis.Complex.CauchyIntegral
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Filter Real

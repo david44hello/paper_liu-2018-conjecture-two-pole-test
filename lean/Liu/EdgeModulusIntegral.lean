@@ -1,4 +1,8 @@
-import Liu.EdgeKernelDifference
+module
+
+public import Liu.EdgeKernelDifference
+
+@[expose] public section
 
 noncomputable section
 open Set Real MeasureTheory

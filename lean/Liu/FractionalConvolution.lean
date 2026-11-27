@@ -1,5 +1,9 @@
-import Liu.KernelIncrement
-import Liu.CauchyTransform
+module
+
+public import Liu.KernelIncrement
+public import Liu.CauchyTransform
+
+@[expose] public section
 
 noncomputable section
 open Set Real MeasureTheory Filter Metric

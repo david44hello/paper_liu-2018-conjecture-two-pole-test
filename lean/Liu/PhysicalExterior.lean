@@ -1,5 +1,9 @@
-import Liu.CutoffIdentification
-import Liu.WitnessClaim
+module
+
+public import Liu.CutoffIdentification
+public import Liu.WitnessClaim
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real Filter Metric

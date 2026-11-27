@@ -1,5 +1,9 @@
-import Liu.FieldBound
-import Liu.DeficitRemainder
+module
+
+public import Liu.FieldBound
+public import Liu.DeficitRemainder
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real Metric

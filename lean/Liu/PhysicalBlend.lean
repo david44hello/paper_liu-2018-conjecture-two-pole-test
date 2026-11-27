@@ -1,6 +1,10 @@
-import Liu.SmallFirstOrder
-import Liu.BlendedWitness
-import Liu.MergedPoles
+module
+
+public import Liu.SmallFirstOrder
+public import Liu.BlendedWitness
+public import Liu.MergedPoles
+
+@[expose] public section
 
 noncomputable section
 open Set Real MeasureTheory Filter Metric

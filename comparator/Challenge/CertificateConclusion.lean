@@ -1,10 +1,16 @@
-import Challenge.MixedEdgeFlux
+module
+
+public import Challenge.MixedEdgeFlux
+
+@[expose] public section
 
 /- Frozen input: Liu/CertificateConclusion.lean -/
 noncomputable section
 open Set Real MeasureTheory Filter
 open scoped Topology
 namespace Liu
+open scoped Liu
+
 
 theorem certified_prefix_integral : Certificate.prefixProperty := by sorry
 

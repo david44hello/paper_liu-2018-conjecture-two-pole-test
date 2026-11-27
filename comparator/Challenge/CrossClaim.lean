@@ -1,5 +1,9 @@
-import Challenge.CrossSource
-import Challenge.Prefix
+module
+
+public import Challenge.CrossSource
+public import Challenge.Prefix
+
+@[expose] public section
 
 /- Frozen input: Liu/CrossClaim.lean -/
 noncomputable section

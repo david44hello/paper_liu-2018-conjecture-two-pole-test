@@ -1,4 +1,8 @@
-import Liu.DiscMoments
+module
+
+public import Liu.DiscMoments
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real Metric

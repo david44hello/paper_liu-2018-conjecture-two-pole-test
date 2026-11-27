@@ -1,4 +1,8 @@
-import Liu.FrozenSource
+module
+
+public import Liu.FrozenSource
+
+@[expose] public section
 
 noncomputable section
 open scoped ComplexConjugate

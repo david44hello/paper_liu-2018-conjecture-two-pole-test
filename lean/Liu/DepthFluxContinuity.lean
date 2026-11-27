@@ -1,5 +1,9 @@
-import Liu.FarDeficit
-import Liu.DepthTraceContinuity
+module
+
+public import Liu.FarDeficit
+public import Liu.DepthTraceContinuity
+
+@[expose] public section
 
 noncomputable section
 open Set Real Filter MeasureTheory Metric

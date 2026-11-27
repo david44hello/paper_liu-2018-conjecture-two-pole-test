@@ -1,5 +1,9 @@
-import Liu.EdgeContinuity
-import Liu.EdgeImagTrace
+module
+
+public import Liu.EdgeContinuity
+public import Liu.EdgeImagTrace
+
+@[expose] public section
 
 noncomputable section
 open Set Real MeasureTheory

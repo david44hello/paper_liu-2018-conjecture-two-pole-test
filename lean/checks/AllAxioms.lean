@@ -1,4 +1,8 @@
-import Liu
+module
+
+public import Liu
+
+@[expose] public section
 
 #print axioms Liu.PickSum.admissible_critical
 #print axioms Liu.RealContour.continuous

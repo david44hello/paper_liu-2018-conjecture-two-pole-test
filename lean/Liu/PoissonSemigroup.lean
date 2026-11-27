@@ -1,4 +1,8 @@
-import Liu.PoissonLine
+module
+
+public import Liu.PoissonLine
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Filter Real

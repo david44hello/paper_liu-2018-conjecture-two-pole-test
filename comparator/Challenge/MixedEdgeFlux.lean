@@ -1,7 +1,11 @@
-import Challenge.EdgeTraceEstimates
-import Challenge.PoissonLine
-import Challenge.SingleFlux
-import Challenge.SmallDepthIntegral
+module
+
+public import Challenge.EdgeTraceEstimates
+public import Challenge.PoissonLine
+public import Challenge.SingleFlux
+public import Challenge.SmallDepthIntegral
+
+@[expose] public section
 
 /- Frozen input: Liu/MixedEdgeFlux.lean -/
 noncomputable section

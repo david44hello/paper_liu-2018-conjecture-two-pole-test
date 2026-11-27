@@ -1,5 +1,9 @@
-import Liu.ProjectionKernel
-import Liu.KernelFar
+module
+
+public import Liu.ProjectionKernel
+public import Liu.KernelFar
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Metric Real

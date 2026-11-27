@@ -1,5 +1,9 @@
-import Liu.DiscIntegral
-import Liu.BergmanClosed
+module
+
+public import Liu.DiscIntegral
+public import Liu.BergmanClosed
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Metric Real

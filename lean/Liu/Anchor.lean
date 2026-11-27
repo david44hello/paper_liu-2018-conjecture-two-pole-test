@@ -1,5 +1,9 @@
-import Liu.Gluing
-import Liu.Mass
+module
+
+public import Liu.Gluing
+public import Liu.Mass
+
+@[expose] public section
 
 noncomputable section
 open MeasureTheory Set Filter

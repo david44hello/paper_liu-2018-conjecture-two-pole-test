@@ -1,5 +1,9 @@
-import Liu.FirstOrderMajorant
-import Liu.LinearPairing
+module
+
+public import Liu.FirstOrderMajorant
+public import Liu.LinearPairing
+
+@[expose] public section
 
 noncomputable section
 open Set Real MeasureTheory Filter Metric

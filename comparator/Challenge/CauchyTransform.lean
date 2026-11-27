@@ -1,5 +1,9 @@
-import Challenge.FieldBound
-import Mathlib.Analysis.SpecialFunctions.Complex.LogBounds
+module
+
+public import Challenge.FieldBound
+public import Mathlib.Analysis.SpecialFunctions.Complex.LogBounds
+
+@[expose] public section
 
 /- Frozen input: Liu/CauchyTransform.lean -/
 noncomputable section

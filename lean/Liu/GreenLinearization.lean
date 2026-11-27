@@ -1,5 +1,9 @@
-import Liu.FieldBound
-import Mathlib.Analysis.SpecialFunctions.Complex.LogBounds
+module
+
+public import Liu.FieldBound
+public import Mathlib.Analysis.SpecialFunctions.Complex.LogBounds
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real

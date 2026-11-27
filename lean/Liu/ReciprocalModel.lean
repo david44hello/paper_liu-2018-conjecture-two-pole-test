@@ -1,6 +1,10 @@
-import Liu.ParameterDiscIntegral
-import Liu.CertificateConclusion
-import Liu.Dilation
+module
+
+public import Liu.ParameterDiscIntegral
+public import Liu.CertificateConclusion
+public import Liu.Dilation
+
+@[expose] public section
 
 noncomputable section
 open Set Real MeasureTheory Metric

@@ -1,6 +1,10 @@
-import Liu.RationalLogTerm
-import Liu.PolarResolvent
-import Liu.DiagonalLogField
+module
+
+public import Liu.RationalLogTerm
+public import Liu.PolarResolvent
+public import Liu.DiagonalLogField
+
+@[expose] public section
 
 noncomputable section
 open Set Real MeasureTheory Filter

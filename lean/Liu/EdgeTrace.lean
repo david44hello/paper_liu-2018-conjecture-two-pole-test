@@ -1,6 +1,10 @@
-import Liu.BoundaryL2
-import Liu.CrossClaim
-import Liu.Symmetry
+module
+
+public import Liu.BoundaryL2
+public import Liu.CrossClaim
+public import Liu.Symmetry
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real

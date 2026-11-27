@@ -1,9 +1,13 @@
-import Challenge.RadialField
-import Challenge.Reflection
-import Challenge.QuotientDomain
-import Challenge.PickSums
-import Challenge.RadialEnergy
-import Mathlib.MeasureTheory.Measure.Lebesgue.VolumeOfBalls
+module
+
+public import Challenge.RadialField
+public import Challenge.Reflection
+public import Challenge.QuotientDomain
+public import Challenge.PickSums
+public import Challenge.RadialEnergy
+public import Mathlib.MeasureTheory.Measure.Lebesgue.VolumeOfBalls
+
+@[expose] public section
 
 /- Frozen input: Liu/FinitePartLaws.lean -/
 noncomputable section

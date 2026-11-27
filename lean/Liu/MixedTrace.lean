@@ -1,6 +1,10 @@
-import Liu.IsolatedStability
-import Liu.EdgeLogWeight
-import Liu.SmallDepthIntegral
+module
+
+public import Liu.IsolatedStability
+public import Liu.EdgeLogWeight
+public import Liu.SmallDepthIntegral
+
+@[expose] public section
 
 noncomputable section
 open Set Real MeasureTheory

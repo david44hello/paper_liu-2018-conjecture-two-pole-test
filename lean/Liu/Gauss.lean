@@ -1,6 +1,10 @@
-import Liu.Pick
-import Mathlib.Analysis.Analytic.Binomial
-import Mathlib.Analysis.SpecialFunctions.Gamma.Beta
+module
+
+public import Liu.Pick
+public import Mathlib.Analysis.Analytic.Binomial
+public import Mathlib.Analysis.SpecialFunctions.Gamma.Beta
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real Filter

@@ -1,5 +1,9 @@
-import Challenge.FarFieldClaim
-import Mathlib.Analysis.Complex.CauchyIntegral
+module
+
+public import Challenge.FarFieldClaim
+public import Mathlib.Analysis.Complex.CauchyIntegral
+
+@[expose] public section
 
 /- Frozen input: Liu/Orthogonality.lean -/
 noncomputable section

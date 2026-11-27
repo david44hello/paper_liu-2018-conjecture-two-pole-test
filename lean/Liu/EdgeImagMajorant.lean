@@ -1,4 +1,8 @@
-import Liu.EdgeHeightCost
+module
+
+public import Liu.EdgeHeightCost
+
+@[expose] public section
 
 noncomputable section
 open Set Real MeasureTheory

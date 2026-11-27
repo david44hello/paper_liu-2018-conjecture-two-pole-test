@@ -1,5 +1,9 @@
-import Liu.AngularControl
-import Mathlib.Analysis.SpecialFunctions.SmoothTransition
+module
+
+public import Liu.AngularControl
+public import Mathlib.Analysis.SpecialFunctions.SmoothTransition
+
+@[expose] public section
 
 noncomputable section
 open Set Real Filter

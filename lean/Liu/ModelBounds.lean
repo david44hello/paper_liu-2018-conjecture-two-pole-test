@@ -1,5 +1,9 @@
-import Liu.ModelFarField
-import Liu.FieldComparison
+module
+
+public import Liu.ModelFarField
+public import Liu.FieldComparison
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real Filter Metric

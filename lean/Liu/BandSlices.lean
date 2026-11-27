@@ -1,4 +1,8 @@
-import Liu.DepthStrip
+module
+
+public import Liu.DepthStrip
+
+@[expose] public section
 
 noncomputable section
 open Set Real MeasureTheory Filter Metric

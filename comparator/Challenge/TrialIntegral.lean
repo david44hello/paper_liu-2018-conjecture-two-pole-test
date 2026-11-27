@@ -1,6 +1,10 @@
-import Challenge.CitedInterpolation
-import Challenge.SlopeFormula
-import Challenge.ProjectionKernel
+module
+
+public import Challenge.CitedInterpolation
+public import Challenge.SlopeFormula
+public import Challenge.ProjectionKernel
+
+@[expose] public section
 
 /- Frozen input: Liu/TrialIntegral.lean -/
 noncomputable section

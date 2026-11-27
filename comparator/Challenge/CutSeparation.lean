@@ -1,4 +1,8 @@
-import Challenge.LogTailKernel
+module
+
+public import Challenge.LogTailKernel
+
+@[expose] public section
 
 /- Frozen input: Liu/CutSeparation.lean -/
 noncomputable section

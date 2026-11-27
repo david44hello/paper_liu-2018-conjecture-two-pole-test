@@ -1,5 +1,9 @@
-import Liu.BlendExpansion
-import Liu.ClusterDensity
+module
+
+public import Liu.BlendExpansion
+public import Liu.ClusterDensity
+
+@[expose] public section
 
 noncomputable section
 open Set Real MeasureTheory

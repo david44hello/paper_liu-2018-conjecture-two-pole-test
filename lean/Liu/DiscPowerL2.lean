@@ -1,5 +1,9 @@
-import Liu.DiscMonomials
-import Mathlib.MeasureTheory.Function.LpSpace.InfiniteSum
+module
+
+public import Liu.DiscMonomials
+public import Mathlib.MeasureTheory.Function.LpSpace.InfiniteSum
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real Filter Finset Metric
@@ -9,7 +13,7 @@ namespace Liu
 abbrev discArea := area.restrict disc
 abbrev DiscL2 := Lp ℂ 2 discArea
 
-private theorem disc_monomial_memLp (n : ℕ) : MemLp (fun z : ℂ => z^n) 2 discArea := by
+theorem disc_monomial_memLp (n : ℕ) : MemLp (fun z : ℂ => z^n) 2 discArea := by
   have hm : Measurable (fun z : ℂ => z^n) := by fun_prop
   apply (memLp_two_iff_integrable_sq_norm hm.aestronglyMeasurable).mpr
   letI : IsFiniteMeasureOnCompacts area := IsFiniteMeasureOnCompacts.smul volume ENNReal.ofReal_ne_top
@@ -36,7 +40,7 @@ theorem discUnitMonomial_orthonormal : Orthonormal ℂ discUnitMonomial := by
     push_cast; field_simp
   · simp [he,Ne.symm he]
 
-private def discCoeff (a : ℕ → ℂ) (n : ℕ) := a n/((√((n:ℝ)+1):ℝ):ℂ)
+def discCoeff (a : ℕ → ℂ) (n : ℕ) := a n/((√((n:ℝ)+1):ℝ):ℂ)
 
 private theorem discCoeff_sq (a : ℕ → ℂ) (n : ℕ) : ‖discCoeff a n‖^2 = ‖a n‖^2/((n:ℝ)+1) := by
   simp [discCoeff,norm_div,div_pow,Real.sq_sqrt (by positivity : 0≤(n:ℝ)+1)]

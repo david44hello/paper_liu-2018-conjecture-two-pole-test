@@ -1,4 +1,8 @@
-import Liu.ReciprocalSource
+module
+
+public import Liu.ReciprocalSource
+
+@[expose] public section
 
 noncomputable section
 open Set Real MeasureTheory Metric

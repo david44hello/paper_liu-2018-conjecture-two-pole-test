@@ -1,5 +1,9 @@
-import Liu.KernelControl
-import Liu.PolarizedDefect
+module
+
+public import Liu.KernelControl
+public import Liu.PolarizedDefect
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real Filter
@@ -37,7 +41,7 @@ theorem greenLog_difference {x y w : ℂ} (hx : x∈upper) (hy : y∈upper) (hw 
     log_div (norm_ne_zero_iff.mpr (sub_ne_zero.mpr (sep y hy))) (norm_ne_zero_iff.mpr (sub_ne_zero.mpr hny)),mul_add]
   exact abs_le.mpr ⟨by linarith,by linarith⟩
 
-private def cubeTail (w : ℂ) : ℝ := (1+‖w‖)^(-(3:ℝ))
+def cubeTail (w : ℂ) : ℝ := (1+‖w‖)^(-(3:ℝ))
 
 def gradientWeight (z w : ℂ) : ℝ :=
   localInverse z w + 8*cubeTail (w-z) + cubeTail w

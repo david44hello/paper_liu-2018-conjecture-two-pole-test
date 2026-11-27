@@ -1,4 +1,8 @@
-import Liu.BlendMajorant
+module
+
+public import Liu.BlendMajorant
+
+@[expose] public section
 
 noncomputable section
 open Set Real MeasureTheory Filter

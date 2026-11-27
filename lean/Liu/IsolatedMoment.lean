@@ -1,6 +1,10 @@
-import Liu.EdgeTraceEstimates
-import Liu.PoissonSemigroup
-import Liu.BoundaryL2
+module
+
+public import Liu.EdgeTraceEstimates
+public import Liu.PoissonSemigroup
+public import Liu.BoundaryL2
+
+@[expose] public section
 
 noncomputable section
 open Set Real MeasureTheory Filter

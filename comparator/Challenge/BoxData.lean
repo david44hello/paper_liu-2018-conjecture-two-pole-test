@@ -1,4 +1,8 @@
-import Challenge.BoxTypes
+module
+
+public import Challenge.BoxTypes
+
+@[expose] public section
 
 /- Frozen input: Liu/BoxData.lean -/
 noncomputable section

@@ -1,4 +1,8 @@
-import Liu.EnergyEstimate
+module
+
+public import Liu.EnergyEstimate
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Filter Real

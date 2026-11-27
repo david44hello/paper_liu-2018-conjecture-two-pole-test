@@ -1,9 +1,15 @@
-import Liu.BetaLedger
-import Liu.LogIntegral
+module
+
+public import Liu.BetaLedger
+public import Liu.LogIntegral
+
+@[expose] public section
 
 open MeasureTheory Set Filter
 noncomputable section
 namespace Liu.Certificate
+open scoped Liu
+
 
 /-- Proposition 6.1 with the fixed 168 depth / lower-bound pairs of the certificate. -/
 def boxBounds : Prop :=

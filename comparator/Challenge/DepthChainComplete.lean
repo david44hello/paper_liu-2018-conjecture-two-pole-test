@@ -1,5 +1,9 @@
-import Challenge.ReciprocalDisc
-import Challenge.DepthChain
+module
+
+public import Challenge.ReciprocalDisc
+public import Challenge.DepthChain
+
+@[expose] public section
 
 /- Frozen input: Liu/DepthChainComplete.lean -/
 noncomputable section

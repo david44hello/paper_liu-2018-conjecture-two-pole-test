@@ -1,118 +1,122 @@
-import Challenge.Admissibility
-import Challenge.AdmissibleContour
-import Challenge.Anchor
-import Challenge.AngularDeficit
-import Challenge.AngularPotential
-import Challenge.Bergman
-import Challenge.BergmanClosed
-import Challenge.BergmanLpNorm
-import Challenge.Beta
-import Challenge.BetaLedger
-import Challenge.Blend
-import Challenge.BlendExpansion
-import Challenge.BoundaryField
-import Challenge.BoxData
-import Challenge.BoxTypes
-import Challenge.CanonicalField
-import Challenge.CanonicalRegularity
-import Challenge.CapWeights
-import Challenge.CauchyTransform
-import Challenge.CellAnalytic
-import Challenge.CellPartners
-import Challenge.CentredDensity
-import Challenge.CentredMovement
-import Challenge.CertificateConclusion
-import Challenge.ChebyshevAlias
-import Challenge.ChebyshevApproximation
-import Challenge.ChebyshevEllipse
-import Challenge.CitedInterpolation
-import Challenge.ClusterGeometry
-import Challenge.ComplexTaylorFlux
-import Challenge.Cover
-import Challenge.CrossClaim
-import Challenge.CrossSource
-import Challenge.CutDomain
-import Challenge.CutSeparation
-import Challenge.DeficitRemainder
-import Challenge.DepthChain
-import Challenge.DepthChainComplete
-import Challenge.DepthDerivative
-import Challenge.DepthFluxContinuity
-import Challenge.DepthTraceContinuity
-import Challenge.DirichletDerivatives
-import Challenge.DirichletEstimates
-import Challenge.EdgeConvolution
-import Challenge.EdgeRealTrace
-import Challenge.EdgeTrace
-import Challenge.EdgeTraceEstimates
-import Challenge.FarDeficit
-import Challenge.FarFieldClaim
-import Challenge.FieldBound
-import Challenge.FieldComparison
-import Challenge.FinitePart
-import Challenge.FinitePartLaws
-import Challenge.FirstOrderExpansion
-import Challenge.FirstOrderMajorant
-import Challenge.FluxDecomposition
-import Challenge.Gauss
-import Challenge.Gluing
-import Challenge.IntegrableReproducing
-import Challenge.InterpolationCharts
-import Challenge.IsolatedBounds
-import Challenge.LiuComparison
-import Challenge.LiuGammaPower
-import Challenge.LogSource
-import Challenge.LogTailEstimate
-import Challenge.LogTailKernel
-import Challenge.Mass
-import Challenge.MergedPoles
-import Challenge.MixedEdgeFlux
-import Challenge.OnePoleBounds
-import Challenge.OnePoleWitness
-import Challenge.Orthogonality
-import Challenge.PairedFlux
-import Challenge.Pick
-import Challenge.PickNumerator
-import Challenge.PickRationalLog
-import Challenge.PickSums
-import Challenge.PoissonLine
-import Challenge.Prefix
-import Challenge.ProbeUniqueness
-import Challenge.Projection
-import Challenge.ProjectionKernel
-import Challenge.QuotientDomain
-import Challenge.RadialEnergy
-import Challenge.RadialField
-import Challenge.ReciprocalDisc
-import Challenge.ReciprocalModel
-import Challenge.ReciprocalTail
-import Challenge.Reflection
-import Challenge.Reproducing
-import Challenge.SeparatedNodes
-import Challenge.SeparatedSource
-import Challenge.SingleFlux
-import Challenge.SinglePartnerFlux
-import Challenge.SinglePoleDigits
-import Challenge.SinglePoleEvaluation
-import Challenge.SinglePoleReduction
-import Challenge.SingleTrace
-import Challenge.SlopeFormula
-import Challenge.SmallDepthFlux
-import Challenge.SmallDepthIntegral
-import Challenge.SmallFirstOrder
-import Challenge.SmallMassDeficit
-import Challenge.SmallRemainder
-import Challenge.SupercriticalEnergy
-import Challenge.TailPhysical
-import Challenge.TensorInterpolation
-import Challenge.TopCollision
-import Challenge.TopInterpolationChart
-import Challenge.TrialIntegral
-import Challenge.TrialOrthogonality
-import Challenge.TrigammaSeries
-import Challenge.VerticalLog
-import Challenge.WeakBergman
-import Challenge.WeakPrimitive
-import Challenge.WindowContinuation
-import Challenge.Witness
-import Challenge.WitnessClaim
+module
+
+public import Challenge.Admissibility
+public import Challenge.AdmissibleContour
+public import Challenge.Anchor
+public import Challenge.AngularDeficit
+public import Challenge.AngularPotential
+public import Challenge.Bergman
+public import Challenge.BergmanClosed
+public import Challenge.BergmanLpNorm
+public import Challenge.Beta
+public import Challenge.BetaLedger
+public import Challenge.Blend
+public import Challenge.BlendExpansion
+public import Challenge.BoundaryField
+public import Challenge.BoxData
+public import Challenge.BoxTypes
+public import Challenge.CanonicalField
+public import Challenge.CanonicalRegularity
+public import Challenge.CapWeights
+public import Challenge.CauchyTransform
+public import Challenge.CellAnalytic
+public import Challenge.CellPartners
+public import Challenge.CentredDensity
+public import Challenge.CentredMovement
+public import Challenge.CertificateConclusion
+public import Challenge.ChebyshevAlias
+public import Challenge.ChebyshevApproximation
+public import Challenge.ChebyshevEllipse
+public import Challenge.CitedInterpolation
+public import Challenge.ClusterGeometry
+public import Challenge.ComplexTaylorFlux
+public import Challenge.Cover
+public import Challenge.CrossClaim
+public import Challenge.CrossSource
+public import Challenge.CutDomain
+public import Challenge.CutSeparation
+public import Challenge.DeficitRemainder
+public import Challenge.DepthChain
+public import Challenge.DepthChainComplete
+public import Challenge.DepthDerivative
+public import Challenge.DepthFluxContinuity
+public import Challenge.DepthTraceContinuity
+public import Challenge.DirichletDerivatives
+public import Challenge.DirichletEstimates
+public import Challenge.EdgeConvolution
+public import Challenge.EdgeRealTrace
+public import Challenge.EdgeTrace
+public import Challenge.EdgeTraceEstimates
+public import Challenge.FarDeficit
+public import Challenge.FarFieldClaim
+public import Challenge.FieldBound
+public import Challenge.FieldComparison
+public import Challenge.FinitePart
+public import Challenge.FinitePartLaws
+public import Challenge.FirstOrderExpansion
+public import Challenge.FirstOrderMajorant
+public import Challenge.FluxDecomposition
+public import Challenge.Gauss
+public import Challenge.Gluing
+public import Challenge.IntegrableReproducing
+public import Challenge.InterpolationCharts
+public import Challenge.IsolatedBounds
+public import Challenge.LiuComparison
+public import Challenge.LiuGammaPower
+public import Challenge.LogSource
+public import Challenge.LogTailEstimate
+public import Challenge.LogTailKernel
+public import Challenge.Mass
+public import Challenge.MergedPoles
+public import Challenge.MixedEdgeFlux
+public import Challenge.OnePoleBounds
+public import Challenge.OnePoleWitness
+public import Challenge.Orthogonality
+public import Challenge.PairedFlux
+public import Challenge.Pick
+public import Challenge.PickNumerator
+public import Challenge.PickRationalLog
+public import Challenge.PickSums
+public import Challenge.PoissonLine
+public import Challenge.Prefix
+public import Challenge.ProbeUniqueness
+public import Challenge.Projection
+public import Challenge.ProjectionKernel
+public import Challenge.QuotientDomain
+public import Challenge.RadialEnergy
+public import Challenge.RadialField
+public import Challenge.ReciprocalDisc
+public import Challenge.ReciprocalModel
+public import Challenge.ReciprocalTail
+public import Challenge.Reflection
+public import Challenge.Reproducing
+public import Challenge.SeparatedNodes
+public import Challenge.SeparatedSource
+public import Challenge.SingleFlux
+public import Challenge.SinglePartnerFlux
+public import Challenge.SinglePoleDigits
+public import Challenge.SinglePoleEvaluation
+public import Challenge.SinglePoleReduction
+public import Challenge.SingleTrace
+public import Challenge.SlopeFormula
+public import Challenge.SmallDepthFlux
+public import Challenge.SmallDepthIntegral
+public import Challenge.SmallFirstOrder
+public import Challenge.SmallMassDeficit
+public import Challenge.SmallRemainder
+public import Challenge.SupercriticalEnergy
+public import Challenge.TailPhysical
+public import Challenge.TensorInterpolation
+public import Challenge.TopCollision
+public import Challenge.TopInterpolationChart
+public import Challenge.TrialIntegral
+public import Challenge.TrialOrthogonality
+public import Challenge.TrigammaSeries
+public import Challenge.VerticalLog
+public import Challenge.WeakBergman
+public import Challenge.WeakPrimitive
+public import Challenge.WindowContinuation
+public import Challenge.Witness
+public import Challenge.WitnessClaim
+
+@[expose] public section

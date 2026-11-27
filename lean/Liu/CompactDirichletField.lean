@@ -1,5 +1,9 @@
-import Liu.DirichletGreenIdentity
-import Liu.FieldComparison
+module
+
+public import Liu.DirichletGreenIdentity
+public import Liu.FieldComparison
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Complex Real Filter

@@ -1,5 +1,9 @@
-import Challenge.SeparatedNodes
-import Mathlib
+module
+
+public import Challenge.SeparatedNodes
+public import Mathlib
+
+@[expose] public section
 
 /- Frozen input: Liu/SeparatedSource.lean -/
 noncomputable section

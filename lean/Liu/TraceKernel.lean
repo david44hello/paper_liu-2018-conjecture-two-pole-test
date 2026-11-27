@@ -1,4 +1,8 @@
-import Liu.GreenBoundary
+module
+
+public import Liu.GreenBoundary
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Filter Real

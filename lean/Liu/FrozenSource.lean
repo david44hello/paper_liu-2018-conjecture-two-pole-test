@@ -1,4 +1,8 @@
-import Liu.SourceDefect
+module
+
+public import Liu.SourceDefect
+
+@[expose] public section
 
 noncomputable section
 open scoped ComplexConjugate

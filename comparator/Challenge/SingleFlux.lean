@@ -1,6 +1,10 @@
-import Challenge.SingleTrace
-import Challenge.Mass
-import Challenge.IsolatedBounds
+module
+
+public import Challenge.SingleTrace
+public import Challenge.Mass
+public import Challenge.IsolatedBounds
+
+@[expose] public section
 
 /- Frozen input: Liu/SingleFlux.lean -/
 noncomputable section

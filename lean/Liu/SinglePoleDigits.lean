@@ -1,5 +1,9 @@
-import Liu.Mass
-import Mathlib.Analysis.PSeries
+module
+
+public import Liu.Mass
+public import Mathlib.Analysis.PSeries
+
+@[expose] public section
 
 noncomputable section
 open Set Real Filter Finset

@@ -1,10 +1,14 @@
-import Liu.IsolatedMoment
+module
+
+public import Liu.IsolatedMoment
+
+@[expose] public section
 
 noncomputable section
 open Set Real MeasureTheory
 namespace Liu
 
-private def halfLogWeight (x : ℝ) := (Ioc (0:ℝ) 1).indicator (fun t => t^(-(1/2:ℝ))) x
+def halfLogWeight (x : ℝ) := (Ioc (0:ℝ) 1).indicator (fun t => t^(-(1/2:ℝ))) x
 def edgeLogWeight (x : ℝ) := halfLogWeight x+halfLogWeight (-x)
 
 theorem edgeLogWeight_nonneg (x : ℝ) : 0≤edgeLogWeight x := by

@@ -1,4 +1,8 @@
-import Liu.GaussDerivatives
+module
+
+public import Liu.GaussDerivatives
+
+@[expose] public section
 
 noncomputable section
 open Set Filter Real Finset

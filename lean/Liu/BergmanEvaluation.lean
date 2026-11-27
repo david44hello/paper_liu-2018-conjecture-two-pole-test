@@ -1,4 +1,8 @@
-import Liu.DiscMean
+module
+
+public import Liu.DiscMean
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real Metric

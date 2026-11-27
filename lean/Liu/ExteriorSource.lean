@@ -1,5 +1,9 @@
-import Liu.FrozenFieldLimit
-import Liu.WitnessAsymptotic
+module
+
+public import Liu.FrozenFieldLimit
+public import Liu.WitnessAsymptotic
+
+@[expose] public section
 
 noncomputable section
 open Set MeasureTheory Real
